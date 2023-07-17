@@ -38,7 +38,15 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/c9222045-52c1-4945-9377-bde3cd345088) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/5c29118f-409c-4e97-8283-01d7be6ec976)
 * Click `Save` and play the world.
 
-### 4. Building the Map
+### 4. Setting Up
 * To get started, grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/c52147db-fe5c-48b9-932f-0f725df5c470)
+### 5. Building the Map
+* It is your choice to build the borders first or the map first. For this example, we will build the map first.
+
+  > If you are using a singlenode mapgen, you can't move without noclip enabled. You'll need to replace the area you would like to build your map in with `air` using WorldEdit (a link to the WorldEdit handbook will be down below).
+* Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy.
+* You should also add the following:
+    * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
+    * Team chests for each team. You can find them as a node in the inventory.
+    * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage. 
