@@ -27,7 +27,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * Open Minetest and select the Capture the Flag game.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/5cce3993-a5f4-408a-9178-c177f5e6885a)
-* Create a new world. You can use any mapgen. You can use the v7 mapgen for generated terrain, the flat mapgen, or singlenode mapgen if you want to make a map from scratch.
+* Create a new world. You can use any mapgen. You can use the v7 mapgen for generated terrain, or you can use the flat or singlenode mapgen if you want to make a map from scratch.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0fbc627f-2edd-45c4-a740-754f2b51e99b)
 * After you click `Create`, uncheck `Enable Damage` and check `Creative Mode`. Creative mode will enable `mapedit` mode.
