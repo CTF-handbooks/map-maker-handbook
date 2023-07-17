@@ -17,7 +17,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
     > Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
 
 ### 2. Planning the map
-* A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. A maximum of *230 x 230x* blocks in surface area is recommended.
+* A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. A maximum of *230 x 230* blocks in surface area is recommended.
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
 
     > "The design of a map should encourage differing gameplay and tactics." - -sniper-
@@ -27,7 +27,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * Open Minetest and select the Capture the Flag game.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/5cce3993-a5f4-408a-9178-c177f5e6885a)
-* Create a new world. You can use any mapgen. You can use the v7 mapgen for generated terrain, or you can use the flat or singlenode mapgen if you want to make a map from scratch.
+* Create a new world. You can use any mapgen. You can use the v7 mapgen for generated terrain or the flat or singlenode mapgen if you want to make a map from scratch.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0fbc627f-2edd-45c4-a740-754f2b51e99b)
 * After you click `Create`, uncheck `Enable Damage` and check `Creative Mode`. Creative mode will enable `mapedit` mode.
@@ -42,7 +42,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * To get started, grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
 ### 5. Building the Map
-* It is your choice to build the borders first or the map first. For this example, we will build the map first.
+* It is your choice to build the borders or map first. For this example, we will build the map first.
 
   > If you are using a singlenode mapgen, you can't move without noclip enabled. You'll need to replace the area you would like to build your map in with `air` using WorldEdit (a link to the WorldEdit handbook will be down below).
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy.
