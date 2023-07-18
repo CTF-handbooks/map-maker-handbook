@@ -49,6 +49,8 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
   > To build better builds on your map, you can check out this handbook: <WIP, will add later>.
+  
+  > *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
 * You should also add the following:
     * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
     * Team chests for each team. You can find them as a node in the inventory.
