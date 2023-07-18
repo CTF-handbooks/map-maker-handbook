@@ -64,5 +64,8 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * You can leave the roof open. Players shouldn't be able to escape if you set your map area correctly.
 * It is your choice to put the barriers at the edge of the map or leave parts of your map outside the barrier.
 
-![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/97c838aa-1fea-4d4e-bd23-d49d563de4a6) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/29591651-35a6-48b2-8095-1c5dde26c2b7)
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/97c838aa-1fea-4d4e-bd23-d49d563de4a6) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/29591651-35a6-48b2-8095-1c5dde26c2b7)
+* The build-time wall should be placed in the middle of the map. Use "Indestructible Red Barrier Glass" (`ctf_map:ind_glass_red`) for the parts of the wall that consists of air (no blocks) and "Indestructible Red Barrier Stone" (`ctf_map:ind_stone_red`) for the parts of the wall that consists of stone blocks. The red barrier glass will disappear and the red barrier stone will turn into normal stone once the match starts.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d06602c8-1f60-416e-86af-430448ea26a2)
 * On how to use WorldEdit, you can check out this tutorial: (the WorldEdit handbook is still a WIP, for now, this tutorial will do: https://youtu.be/7qQ6w0ntk9g?t=110)
