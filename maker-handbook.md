@@ -42,6 +42,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 ### 4. Setting Up
 * To get started, grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
+
 ### 5. Building the Map
 * It is your choice to build the borders or map first. For this example, we will build the map first.
 
@@ -57,3 +58,11 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
       
       ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/74f210ba-3b94-473a-bff8-886f8578d3d3)
     * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
+
+### 6. Building the Barriers
+* Once you finish building the map, it is time to build the barriers. The barriers should prevent the players from escaping the map. The barriers can be any indestructible block. "Indestructible Barrier Glass" (`ctf_map:ind_glass`) around the edge and "Indestructible Stone" (`ctf_map:stone`) for the bottom of the map is typical.
+* You can leave the roof open. Players shouldn't be able to escape if you set your map area correctly.
+* It is your choice to put the barriers at the edge of the map or leave parts of your map outside the barrier.
+
+![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/97c838aa-1fea-4d4e-bd23-d49d563de4a6) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/29591651-35a6-48b2-8095-1c5dde26c2b7)
+* On how to use WorldEdit, you can check out this tutorial: (the WorldEdit handbook is still a WIP, for now, this tutorial will do: https://youtu.be/7qQ6w0ntk9g?t=110)
