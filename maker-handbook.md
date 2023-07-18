@@ -21,6 +21,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
 
     > "The design of a map should encourage differing gameplay and tactics." - -sniper-
+* The design of a map shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
 * Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.
 
 ### 3. Creating the World
@@ -49,4 +50,4 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * You should also add the following:
     * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
     * Team chests for each team. You can find them as a node in the inventory.
-    * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage. 
+    * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (Please note that mapgens such as v7 and flat come with ores).
