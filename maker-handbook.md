@@ -41,6 +41,8 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * Grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
 
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
+
 ### 5. Building the Map
 * It is your choice to build the borders or map first. For this example, we will build the map first.
 
