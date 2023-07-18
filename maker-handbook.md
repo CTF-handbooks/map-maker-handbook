@@ -40,7 +40,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * Click `Save` and play the world.
 
 ### 4. Setting Up
-* To get started, grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
+* Grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
 
 ### 5. Building the Map
@@ -60,7 +60,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
     * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
 
 ### 6. Building the Barriers
-* Once you finish building the map, it is time to build the barriers. The barriers should prevent the players from escaping the map. The barriers can be any indestructible block. "Indestructible Barrier Glass" (`ctf_map:ind_glass`) around the edge and "Indestructible Stone" (`ctf_map:stone`) for the bottom of the map is typical.
+* The barriers should prevent the players from escaping the map. The barriers can be any indestructible block. "Indestructible Barrier Glass" (`ctf_map:ind_glass`) around the edge and "Indestructible Stone" (`ctf_map:stone`) for the bottom of the map is typical.
 * You can leave the roof open. Players shouldn't be able to escape if you set your map area correctly.
 * It is your choice to put the barriers at the edge of the map or leave parts of your map outside the barrier.
 
