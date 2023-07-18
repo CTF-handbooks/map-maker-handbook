@@ -27,7 +27,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 ### 3. Creating the World
 * Open Minetest and select the Capture the Flag game.
   
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/5cce3993-a5f4-408a-9178-c177f5e6885a)
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8fc4f325-b209-4f38-9044-a42fae90a5e2)
 * Create a new world. You can use any mapgen. You can use the v7 mapgen for generated terrain, or you can use the flat or singlenode mapgen if you want to make a map from scratch.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0fbc627f-2edd-45c4-a740-754f2b51e99b)
@@ -50,4 +50,6 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * You should also add the following:
     * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
     * Team chests for each team. You can find them as a node in the inventory.
+      
+      ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/74f210ba-3b94-473a-bff8-886f8578d3d3)
     * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (Please note that mapgens such as v7 and flat come with ores).
