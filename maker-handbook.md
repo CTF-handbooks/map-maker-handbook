@@ -45,7 +45,7 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 * It is your choice to build the borders or map first. For this example, we will build the map first.
 
   > If you are using a singlenode mapgen, you can't move without noclip enabled. You'll need to replace the area you would like to build your map in with `air` using WorldEdit (a link to the WorldEdit handbook will be down below).
-* Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy.
+* Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 * You should also add the following:
     * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
     * Team chests for each team. You can find them as a node in the inventory.
