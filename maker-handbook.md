@@ -47,9 +47,11 @@ This is a detailed guide on how to create a map for the Minetest Capture the Fla
 
   > If you are using a singlenode mapgen, you can't move without noclip enabled. You'll need to replace the area you would like to build your map in with `air` using WorldEdit (a link to the WorldEdit handbook will be down below).
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
+
+  > To build better builds on your map, you can check out this handbook: <WIP, will add later>.
 * You should also add the following:
     * Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is `5x5` blocks (the flag should be in the middle).
     * Team chests for each team. You can find them as a node in the inventory.
       
       ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/74f210ba-3b94-473a-bff8-886f8578d3d3)
-    * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (Please note that mapgens such as v7 and flat come with ores).
+    * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
