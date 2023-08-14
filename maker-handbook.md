@@ -1,4 +1,4 @@
-# The Map Maker's Handbook
+# The Map Maker's Handbook (WIP)
 
 This is a detailed guide on how to create a map for the Minetest Capture the Flag game.
 
