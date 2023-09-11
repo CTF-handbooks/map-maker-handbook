@@ -45,3 +45,8 @@ This is a guide on how to setup your game and world for map making.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
 * *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
+
+<br />
+<br />
+If you plan on using generated terrain such as as `v7` or `flat` you can continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-v7-flat.md). <br />
+If you plan on building the terrain/structures yourself, continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-singlenode.md). <br />
