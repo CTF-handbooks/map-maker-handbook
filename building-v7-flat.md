@@ -1,7 +1,7 @@
 # Building the Map and Barriers for `v7` or `flat`
 
 It is your choice to build the barriers first or the map first. For this example we are going to build the barriers first.
-
+***
 ### 1. WorldEdit basics
 * To use WorldEdit, first you must select an area in which your actions take place.
 * You can use the `WorldEdit Wand tool` to select your area. To select your area, you select the two opposite corners of the area. Left-click a node with the tool to make the node the first corner, and right-click to set the second.
@@ -12,7 +12,7 @@ It is your choice to build the barriers first or the map first. For this example
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
 * **Remember to backup your world before risky operations!**
-
+***
 ### 2. Exporting your area (optional and experimental)
 With generated terrain, it might be hard to add the barriers with terrain blocking your view. This method can remove the extra terrain around your map.
 > If you are building the barriers before building your map, this method might make it hard to expand your map later on. A more time-consuming alternative to this method will be mentioned.
@@ -39,7 +39,7 @@ With generated terrain, it might be hard to add the barriers with terrain blocki
 
 
 
-
+***
 ### 5. Building the Map
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
