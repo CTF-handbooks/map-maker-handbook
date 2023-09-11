@@ -2,7 +2,7 @@
 
 This is a guide on how to setup your game and world for map making.
 
-### 1. Required Tools
+### 1. Required tools
 * Minetest version 5.6 or above.
     > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
 * Capture the Flag game for Minetest.
@@ -24,7 +24,7 @@ This is a guide on how to setup your game and world for map making.
 * The design of a map shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
 * Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.
 
-### 3. Creating the World
+### 3. Creating the world
 * Open Minetest and select the `Capture the Flag` game.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d64da4d8-10e7-4a0e-b555-775f3804097b)
@@ -39,14 +39,13 @@ This is a guide on how to setup your game and world for map making.
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a40dea59-fdab-459f-b2f8-5c281c037498)
 * Click `Save` and play the world.
 
-### 4. Setting Up
+### 4. Setting up
 * Grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
 * *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
 
-<br />
-<br />
-If you plan on using generated terrain such as as `v7` or `flat` you can continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-v7-flat.md). <br />
-If you plan on building the terrain/structures yourself, continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-singlenode.md). <br />
+### 5 Building the map
+* If you plan on using generated terrain such as as `v7` or `flat` you can continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-v7-flat.md).
+* If you plan on building the terrain/structures yourself, continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-singlenode.md).
