@@ -1,7 +1,7 @@
 # The Map Maker's Handbook
 
 This is a guide on how to setup your game and world for map making.
-
+***
 ### 1. Required tools
 * Minetest version 5.6 or above.
     > If you don't have Minetest installed, you can download it from the [official Minetest website](https://www.minetest.net/).
@@ -15,7 +15,7 @@ This is a guide on how to setup your game and world for map making.
     > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
 
     > Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
-
+***
 ### 2. Planning the map
 * A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. A maximum of `230 x 230` blocks in surface area is recommended.
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
@@ -23,7 +23,7 @@ This is a guide on how to setup your game and world for map making.
     > "The design of a map should encourage differing gameplay and tactics." - -sniper-
 * The design of a map shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
 * Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.
-
+***
 ### 3. Creating the world
 * Open Minetest and select the `Capture the Flag` game.
   
@@ -38,14 +38,14 @@ This is a guide on how to setup your game and world for map making.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a40dea59-fdab-459f-b2f8-5c281c037498)
 * Click `Save` and play the world.
-
+***
 ### 4. Setting up
 * Grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
 * *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
-
+***
 ### 5 Building the map
 * If you plan on using generated terrain such as as `v7` or `flat` you can continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-v7-flat.md).
 * If you plan on building the terrain/structures yourself, continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-singlenode.md).
