@@ -2,7 +2,7 @@
     <img src="header.png"/>
 </p>
 
-<h1 align="center">Map Maker Handbook (WIP 🏗️)</hi>
+<h1 align="center">Map Maker Handbook (WIP 🏗️)</h1>
 
 This is a detailed guide on the process of making a map for the Minetest Capture the Flag game. This is still a work in progress.
 
