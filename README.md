@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="header.png">
+    <img src="header.png"/>
 </p>
 
 <h1 align="center">Map Maker Handbook (WIP 🏗️)</hi>
