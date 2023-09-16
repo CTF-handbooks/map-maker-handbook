@@ -1,6 +1,6 @@
 # The Map Maker's Handbook
 
-This is a guide on how to setup your game and world for map making.
+This is a guide on how to setup your game and world for map making. (Blocks are referred to as "nodes" in Minetest).
 
 ***
 ### 1. Required tools
@@ -61,6 +61,24 @@ This is a guide on how to setup your game and world for map making.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
 * **Remember to backup your world before risky operations!**
+* Open your inventory. Under the `Crafting` tab you can see an earth icon hiden behind the crafting options. Click it to open the WorldEdit GUI
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d8db8d4c-ee38-4d12-a90b-d2fb73884611)
+* These are the tools that you can use to alter the nodes within your selected area. You can experiment with the options.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ef0db7f5-696a-4611-ad54-c4def6d1aa2f)
+* To set the area you've selected earlier with a certain type of node, click `Set Nodes`, type in the name of the node you would like to set in the field, click `search` or press enter, and click `Set Nodes`.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3b12e708-f60e-42c4-8ebc-1a1c764dd093)
+
+* If you've selected a large area, WorldEdit might give you a warning in chat. Type `//yes` in chat to continue.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/1e84188f-52a6-43db-a79c-fc662e75d987)
+* To replace a certain type of node with another one in your selected area, select `Replace Nodes`. In the first field, type in the node you would like to replace, and in the second field, type in the node you would like to replace with.
+* To only place nodes where there are no nodes, you can replace `air` with the node you want to use (use `ignore` instead of `air` if you are in singlenode).
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/63fe78c0-ab9f-458d-b6bd-7d90ea4414c5)
+
 ***
 ### 6. Building the map
 * If you plan on using generated terrain such as as `v7` or `flat` you can continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-v7-flat.md).
