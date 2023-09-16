@@ -2,18 +2,7 @@
 
 It is your choice to build the barriers first or the map first. For this example we are going to build the barriers first.
 ***
-### 1. WorldEdit basics
-* To use WorldEdit, first you must select an area in which your actions take place.
-* You can use the `WorldEdit Wand tool` to select your area. To select your area, you select the two opposite corners of the area. Left-click a node with the tool to make the node the first corner, and right-click to set the second.
-  
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/fbf6847c-34ed-4c6b-892e-2c862aa3927f)
-* An alternative method is to stand at the point you would like to select and run `//1` in chat to set the first corner, and `//2` to set the second.
-* The area within will be selected.
-
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
-* **Remember to backup your world before risky operations!**
-***
-### 2. Exporting your area (optional and experimental)
+### 1. Exporting your area (optional and experimental)
 With generated terrain, it might be hard to add the barriers with terrain blocking your view. This method can remove the extra terrain around your map.
 > If you are building the barriers before building your map, this method might make it hard to expand your map later on. A more time-consuming alternative to this method will be mentioned.
 * Run the following command in chat:
