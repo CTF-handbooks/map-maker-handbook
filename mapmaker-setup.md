@@ -75,7 +75,7 @@ This is a guide on how to setup your game and world for map making. (Blocks are 
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/1e84188f-52a6-43db-a79c-fc662e75d987)
 * To replace a certain type of node with another one in your selected area, select `Replace Nodes`. In the first field, type in the node you would like to replace, and in the second field, type in the node you would like to replace with.
-* To only place nodes where there are no nodes, you can replace `air` with the node you want to use (use `ignore` instead of `air` if you are in singlenode).
+* To only place nodes where there are no nodes, you can replace `air` with the node you want to use.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/63fe78c0-ab9f-458d-b6bd-7d90ea4414c5)
 
