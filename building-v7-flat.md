@@ -2,18 +2,9 @@
 
 It is your choice to build the barriers first or the map first. For this example we are going to build the barriers first.
 ***
-### 1. Barriers
-* Placing barriers could be a bit confusing with generated terrains since the terrain might be blocking your view.
-* This is optional, but you can select some of the terrain outside the area of your map with WorldEdit (make sure to not select anything within the area you want to build your map in!) and replace them with air by running the following command in chat:
-  ```
-  //s air
-  ```
-* Do the same for all four sides (and bottom) of the map and eventually, your map will be isolated from the terrain around it.
-
-  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/f6105811-65d2-4f66-b9bd-8242b51ab1a8)
-***
-### 2. Placing the barriers
-***
+### 1. Exporting/importing your map (optional)
+* This is optional, but with generated terrain, it might be hard to place the outer barriers when the terrain outside your map area is blocking your view. An easy and recommended solution is to export the part of terrain you want to use and import it again into a singlenode world.
+* Using WorldEdit, select or
 ### 5. Building the map
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
