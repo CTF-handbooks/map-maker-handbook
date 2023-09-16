@@ -51,6 +51,17 @@ This is a guide on how to setup your game and world for map making.
 * *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
 
 ***
-### 5 Building the map
+### 5. WorldEdit basics
+* To use WorldEdit, first you must select an area in which your actions take place.
+* You can use the `WorldEdit Wand tool` to select your area. To select your area, you select the two opposite corners of the area. Left-click a node with the tool to make the node the first corner, and right-click to set the second.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/fbf6847c-34ed-4c6b-892e-2c862aa3927f)
+* An alternative method is to stand at the point you would like to select and run `//1` in chat to set the first corner, and `//2` to set the second.
+* The area within will be selected.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
+* **Remember to backup your world before risky operations!**
+***
+### 6. Building the map
 * If you plan on using generated terrain such as as `v7` or `flat` you can continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-v7-flat.md).
 * If you plan on building the terrain/structures yourself, continue [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/building-singlenode.md).
