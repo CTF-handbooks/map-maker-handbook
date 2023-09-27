@@ -96,10 +96,11 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //mtschemplace map_terrain
   ```
-* Your terrain should be placed there. If you're not happy with the result, you can go down and pick another terrain and do it again.
+* Your terrain should be placed there. If you're not happy with the result, you can go back down, pick another terrain, and do it again.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 
+***
 ### 8. Building the map
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
