@@ -19,7 +19,7 @@ This is a guide on how to setup your game and world for map making. (Blocks are 
   
 ***
 ### 2. Planning the map
-* A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. A maximum of `230 x 230` blocks in surface area is recommended.
+* A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to get across to the middle of the map with a full sprint bar before running out of sprint. A maximum of `230 x 230` blocks in surface area is recommended.
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
 
     > "The design of a map should encourage differing gameplay and tactics." - -sniper-
