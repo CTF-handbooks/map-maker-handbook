@@ -97,7 +97,8 @@ It is your choice to build the barriers first or the map first. For this example
   //mtschemplace map_terrain
   ```
 * Your terrain should be placed there. If you're not happy with the result, you can go back down, pick another terrain, and do it again.
-
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 ***
 ### 7. Placing the barriers
 * Your outer glass barriers can be either...
