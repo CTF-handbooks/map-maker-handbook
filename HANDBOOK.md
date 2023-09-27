@@ -82,9 +82,24 @@ This is a guide on how to setup your game and world for map making. (Blocks are 
 ***
 It is your choice to build the barriers first or the map first. For this example we are going to build the barriers first.
 ### 6. Removing the surrounding terrain
-This is optional and only applies if you're using generated terrain.
-* This is optional, but with generated terrain, it might be hard to place the outer barriers when the terrain outside your map area is blocking your view. An easy and recommended solution is to export the part of terrain you want to use and import it again into a singlenode world.
-* Using WorldEdit, select or
+* This is optional and only applies if you're using generated terrain. It might be hard to place the outer barriers when the terrain outside your map area is blocking your view.
+* To get rid of the extra terrain, first, select the area your map will be in with WorldEdit like mentioned above.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0c966405-3ac4-4b82-b404-e7f6526c74c3)
+
+* Once you selected your map, run `//mtschemcreate <any name>`. For example:
+  ```
+  //mtschemcreate map_terrain
+  ```
+* You can copy the exported schems to a singlenode world and place the terrain there. But to keep it simple, you can just fly up in the air and place the terrain in the sky.
+* Enable fly, fly up, and find a suitable place. Place a corner with WorldEdit by running `//1` in chat. Then, run `//mtschemplace <your schem name>`. For example:
+  ```
+  //mtschemplace map_terrain
+  ```
+* Your terrain should be placed there. If you're not happy with the result, you can go down and pick another terrain and do it again.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
+
 ### 8. Building the map
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
