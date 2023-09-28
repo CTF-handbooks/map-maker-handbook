@@ -107,6 +107,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a65611d8-8c40-4e6a-b48c-2d43da4b495e)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/03a968d2-8822-4904-9302-9835ca3c4848)
 
+* To place the outer glass barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and place "indestructible barrier glass"
 ***
 ### 8. Building the map
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
