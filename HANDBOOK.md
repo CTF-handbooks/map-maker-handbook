@@ -87,7 +87,7 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0c966405-3ac4-4b82-b404-e7f6526c74c3)
 
-* Once you selected your map, run `//mtschemcreate <any name>`. For example:
+* Once you selected the area, run `//mtschemcreate <any name>`. For example:
   ```
   //mtschemcreate map_terrain
   ```
