@@ -61,7 +61,7 @@ This is a guide on how to setup your game and world for map making. (Blocks are 
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
 * **Remember to backup your world before risky operations!**
-* Open your inventory. Under the `Crafting` tab you can see an earth icon hiden behind the crafting options. Click it to open the WorldEdit GUI
+* Open your inventory. Under the `Crafting` tab, an earth icon is hidden behind the crafting options. Click it to open the WorldEdit GUI
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d8db8d4c-ee38-4d12-a90b-d2fb73884611)
 * These are the tools that you can use to alter the nodes within your selected area. You can experiment with the options.
@@ -80,14 +80,14 @@ This is a guide on how to setup your game and world for map making. (Blocks are 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/63fe78c0-ab9f-458d-b6bd-7d90ea4414c5)
 
 ***
-It is your choice to build the barriers first or the map first. For this example we are going to build the barriers first.
+It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.
 ### 6. Removing the surrounding terrain
 * This is optional and only applies if you're using generated terrain. It might be hard to place the outer barriers when the terrain outside your map area is blocking your view.
-* To get rid of the extra terrain, first, select the area your map will be in with WorldEdit like mentioned above.
+* To get rid of the extra terrain, first, select the area your map will be in with WorldEdit as mentioned above.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0c966405-3ac4-4b82-b404-e7f6526c74c3)
 
-* Once you selected your map, run `//mtschemcreate <any name>`. For example:
+* Once you selected the area, run `//mtschemcreate <any name>`. For example:
   ```
   //mtschemcreate map_terrain
   ```
@@ -101,7 +101,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 ***
 ### 7. Placing the barriers
-* Your outer glass barriers be placed outside your terrain, override the outer-slice of your terrain, or leave part of the terrain outside the barrier
+* Your outer glass barriers be placed outside your terrain, override the outer slice of your terrain, or leave part of the terrain outside the barrier
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/99393b5b-8172-4593-9ada-8bd8c0966d50)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a65611d8-8c40-4e6a-b48c-2d43da4b495e)
