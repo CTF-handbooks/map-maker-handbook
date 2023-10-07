@@ -101,13 +101,13 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 ***
 ### 7. Placing the barriers
-* Your outer barriers be placed outside your terrain, override the outer slice of your terrain, or leave part of the terrain outside the barrier
+* Your outer barriers can be placed outside your terrain, override the outer slice of your terrain, or leave part of the terrain outside the barrier.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/99393b5b-8172-4593-9ada-8bd8c0966d50)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a65611d8-8c40-4e6a-b48c-2d43da4b495e)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/03a968d2-8822-4904-9302-9835ca3c4848)
 
-* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and place "indestructible barrier glass" or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and place `indestructible barrier glass` or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_glass
   ```
@@ -131,7 +131,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //s ctf_map:ind_stone
   ```
-* You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. you can not add a roof.
+* You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. You can not add a roof.
 ***
 ### 8. Building the map
 * Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
