@@ -71,7 +71,7 @@ This is a guide on how to setup your game and world for map making. (Blocks are 
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3b12e708-f60e-42c4-8ebc-1a1c764dd093)
 
-* If you've selected a large area, WorldEdit might give you a warning in chat. Type `//yes` in chat to continue.
+* If you've selected a large area, WorldEdit might give you a warning in chat. Type `//y` in chat to continue.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/1e84188f-52a6-43db-a79c-fc662e75d987)
 * To replace a certain type of node with another one in your selected area, select `Replace Nodes`. In the first field, type in the node you would like to replace, and in the second field, type in the node you would like to replace with.
