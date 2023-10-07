@@ -115,6 +115,10 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ab6b6c1e-1341-4a34-bbcd-af2970c99b10)
 
+  > You can find the itemstring of nodes [here](https://wiki.minetest.net/Games/Minetest_Game/Nodes) by clicking into each node in the list.
+  
+  > You can find a list of itemstring of the indestructible nodes CTF provides [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
+
 * To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with the `indestructible barrier glass`.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8880f9df-4bb6-416e-95cf-a0555b2103e6)
