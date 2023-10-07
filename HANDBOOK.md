@@ -136,6 +136,7 @@ It is your choice to build the barriers first or the map first. For this example
   //s ctf_map:ind_stone
   ```
 * You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. You can not add a roof.
+
 ***
 ### 8. Building the map
 * When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
@@ -148,3 +149,27 @@ It is your choice to build the barriers first or the map first. For this example
       
       ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/74f210ba-3b94-473a-bff8-886f8578d3d3)
     * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
+
+***
+### 9. Building the build-time barrier
+* Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
+  >You can press <kbd>F5</kbd> to show your current coordinates.
+* The `indestructible red barrier glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
+* To do this, select the area where the build-time barrier wall will be with WorldEdit, and run:
+  ```
+  //r air ctf_map:ind_glass_red
+  ```
+* If there are stone nodes within the barrier wall, you can replace them with `indestructible red barrier stone`, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before, and run:
+  ```
+  //r default:stone ctf_map:ind_stone_red
+  ```
+* If there is water within the barrier wall, you can replace them with `indestructible water barrier glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before, and run:
+  ```
+  //r default:water_source ctf_map:ind_water
+  ```
+* If there is lava within the barrier wall, you can replace them with `indestructible lava barrier stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before, and run:
+  ```
+  //r default:lava_source ctf_map:ind_lava
+  ```
+* If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.
+***
