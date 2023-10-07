@@ -134,7 +134,7 @@ It is your choice to build the barriers first or the map first. For this example
 * You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. You can not add a roof.
 ***
 ### 8. Building the map
-* Find a place to build your map and start building it. You can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
+* When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3a724fe8-9005-4dde-9438-36d424a2e7be)
   
