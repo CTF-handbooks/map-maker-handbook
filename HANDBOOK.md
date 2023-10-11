@@ -111,7 +111,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //s ctf_map:ind_glass
   ```
-  This method will penetrate the terrain if you have some within your selected area.
+  This method will penetrate the terrain/structures if you have some within your selected area.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ab6b6c1e-1341-4a34-bbcd-af2970c99b10)
 
