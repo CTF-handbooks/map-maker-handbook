@@ -139,6 +139,7 @@ It is your choice to build the barriers first or the map first. For this example
 
 ***
 ### 8. Building the map
+* If you are using the singlenode mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to `air` using WorldEdit.
 * When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3a724fe8-9005-4dde-9438-36d424a2e7be)
