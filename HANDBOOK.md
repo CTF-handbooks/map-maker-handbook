@@ -135,7 +135,7 @@ It is your choice to build the barriers first or the map first. For this example
   //r air ctf_map:ind_glass
   ```
 * After finishing your first glass barrier wall, proceed to build the other 3 sides of the barrier.
-* You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. You can not add a roof.
+* You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
 
 ***
 ### 8. Building the map
