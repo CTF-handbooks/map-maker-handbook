@@ -1,4 +1,4 @@
-# The Map Maker's Handbook
+# The Map Maker's Handbook (Work in Progress)
 
 This is a guide on how to setup your game and world for map making. (Blocks are referred to as "nodes" in Minetest).
 
