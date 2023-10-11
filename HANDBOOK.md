@@ -174,7 +174,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
 * If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.
 ***
-### Selecting the map area
+### 10. Selecting the map area
 * After you finished building your map, run the following command in chat:
   ```
   /ctf_map editor
@@ -190,7 +190,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/bdca51e0-a439-4bf3-a65a-75530f2f5d2d)
 Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, make sure to include them in too.
 ***
-### Exporting the map
+### 11. Exporting the map
 * After selecting your map area, run `/ctf_map editor` in chat again. This will open the Map Editor.
   ```
   /ctf_map editor
