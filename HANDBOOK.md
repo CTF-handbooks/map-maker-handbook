@@ -155,7 +155,7 @@ It is your choice to build the barriers first or the map first. For this example
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
   >You can press <kbd>F5</kbd> to show your current coordinates.
 * The `indestructible red barrier glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
-* To do this, select the area where the build-time barrier wall will be with WorldEdit, and run:
+* To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in too; don't worry they won't be replaced), and run:
   ```
   //r air ctf_map:ind_glass_red
   ```
