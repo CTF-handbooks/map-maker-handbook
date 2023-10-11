@@ -101,6 +101,13 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 ***
 ### 7. Placing the barriers
+* To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+  ```
+  //s ctf_map:ind_stone
+  ```
+  > To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
+  
+  > You can find a list of itemstring of the indestructible nodes CTF provides [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
 * Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/99393b5b-8172-4593-9ada-8bd8c0966d50)
@@ -115,10 +122,6 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ab6b6c1e-1341-4a34-bbcd-af2970c99b10)
 
-  > To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
-  
-  > You can find a list of itemstring of the indestructible nodes CTF provides [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
-
 * To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with the `indestructible barrier glass`.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8880f9df-4bb6-416e-95cf-a0555b2103e6)
@@ -130,10 +133,6 @@ It is your choice to build the barriers first or the map first. For this example
 * Then, without selecting a new area, replace `air` with the `indestructible barrier glass` using the WorldEdit GUI, or through the command:
   ```
   //r air ctf_map:ind_glass
-  ```
-* To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
-  ```
-  //s ctf_map:ind_stone
   ```
 * You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. You can not add a roof.
 
