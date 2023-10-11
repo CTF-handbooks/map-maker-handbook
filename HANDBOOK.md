@@ -174,3 +174,87 @@ It is your choice to build the barriers first or the map first. For this example
   ```
 * If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.
 ***
+### Selecting the map area
+* After you finished building your map, run the following command in chat:
+  ```
+  /ctf_map editor
+  ```
+* Click `Create New Map`.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/b57294e1-b6f1-4a5d-aeb7-40408c5c580d)
+
+* Follow the instructions given to you in chat and select the area your map is in, just like how you would select the area in WorldEdit. You can either punch a node to select or stand at where you want to select and run the following command:
+  ```
+  /ctf_map here
+  ```
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/bdca51e0-a439-4bf3-a65a-75530f2f5d2d)
+Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, make sure to include them in too.
+***
+### Exporting the map
+* After selecting your map area, run `/ctf_map editor` in chat again. This will open the Map Editor.
+  ```
+  /ctf_map editor
+  ```
+* Check `Map Enabled` unless you don't want to make the map available for play.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a1bfc7bb-0b84-4cea-b41c-b15668c15f55)
+
+* In the license field, add the license of your map. Every map must have a license. The official CTF server will only accept free culture licenses like `CC BY-SA 4.0`. Please note that some CC licenses such as `CC BY-ND` are not free. You can find a list of CC licenses [here](https://creativecommons.org/share-your-work/cclicenses/).
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/e3e0a9e8-8968-423a-8b54-3288f303d0d9)
+
+  From the ctf_map README:
+  >You can append any attribution you need to give to the `license` field (For example: If you modified someone's map or used one of their builds you'd list their name and what map/build of theirs that you modified/used). If you want to give more information, you can use the `Other Info` field.
+  
+  >Please make sure you know what you are doing when choosing a license.
+
+* In the `Folder Name` field, type in the name you want the map folder to be. For example, if your map name is "My Map", it is recommended for you to name the folder `my_map`.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/caf03394-10db-49cb-9adb-86206271458d)
+
+* Give players a hint about your map in the `Map Hint` field, such as where the treasures/ores are.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/2aa3b7d9-b006-4b6a-afa4-2b6960854935)
+
+* Use `Other Info` for additional information about the map. You can leave this empty.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0cbab0b8-28b6-443e-8ead-51cfb924758e)
+
+* In the `Map Name` field, type in the name of your map. For example, "My Map".
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/61e82cf7-5665-45ec-82c6-580824d34184)
+
+* In the `Map Author(s)` field, type in the name(s) of the author(s) of your map.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/97132307-260e-4d1a-b065-f909d30ee39b)
+
+* From the ctf_map README:
+  >`initial_stuff` are the items given to players at their (re)spawn. The `initial_stuff` field is located in the `map.conf` file. At least a pickaxe and some torches should be given in the map's `initial_stuff`.
+
+  >An example of `initial_stuff` value that registers a stone pickaxe, 30 cobblestones, 5 torches and a pistol is given below.
+
+  ```
+  default:pick_stone,default:cobble 30,default:torch 5,ctf_ranged:pistol_loaded
+  ```
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/30c84310-aef6-4cd5-b527-167a53425a6a)
+
+* `Map Treasures` is **optional**. From the ctf_map README:
+  >(`Map Treasures` is) a list of treasures that could end up in treasure chests
+
+  >Format:
+  ```
+  [name];[min_count];[max_count];[max_stacks];[rarity];[TREASURE_VERSION];
+  ```
+
+  >`rarity` is a value between 0 and 1 specifying the probability it will be added to a chest.
+  >`TREASURE_VERSION` should currently be set to one.
+
+  >Example:
+    ```
+    default:lava_source;1;10;1;0.2;1;default:water_source;1;10;1;0.2;1;
+    ```
+    ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070)
+
+* The `Skybox` is a image of a sky that will replace the Minetest default sky when players play your map. You can leave this as `none` or select one of the skyboxes. You can also add custom skyboxes.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/15ca58b2-3600-460b-87fc-e11cf7fd9589)
