@@ -255,6 +255,6 @@ Make sure you selected your entire map and make sure you did not select any extr
     ```
     ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070)
 
-* The `Skybox` is a image of a sky that will replace the Minetest default sky when players play your map. You can leave this as `none` or select one of the skyboxes. You can also add custom skyboxes.
+* The `Skybox` is a image of a sky that will replace the Minetest default sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/15ca58b2-3600-460b-87fc-e11cf7fd9589)
