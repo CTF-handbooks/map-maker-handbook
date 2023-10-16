@@ -188,7 +188,8 @@ It is your choice to build the barriers first or the map first. For this example
   /ctf_map here
   ```
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/bdca51e0-a439-4bf3-a65a-75530f2f5d2d)
-Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, make sure to include them in too.
+  
+  Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, make sure to include them in too.
 ***
 ### 11. Exporting the map
 * After selecting your map area, run `/ctf_map editor` in chat again. This will open the Map Editor.
@@ -255,6 +256,6 @@ Make sure you selected your entire map and make sure you did not select any extr
     ```
     ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070)
 
-* The `Skybox` is a image of a sky that will replace the Minetest default sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
+* The `Skybox` is a image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/15ca58b2-3600-460b-87fc-e11cf7fd9589)
