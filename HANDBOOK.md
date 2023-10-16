@@ -274,3 +274,15 @@ It is your choice to build the barriers first or the map first. For this example
    * `1000` is for 1 AM
    * `2000` is for 2 AM
    * etc.
+  
+* Below the map constants, you will see a list of the different teams with a check-box next to them. Use the check-box to enable the teams that exists in your map.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/6b893f4d-ef85-460c-a67a-a2b60eb2f49b)
+
+  Next, click the `Set Flag Pos` button below your first enabled team and punch the node where that team's flag will be on. This will place the flag on top of that node.
+
+  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. During build-time, players who go out of the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they touch the barriers during build-time!**
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/601a5e69-3a9b-457b-93e9-c44d75bebd9b) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0ba88f16-c0eb-416c-aae0-0ff9fd862b09)
+
+
