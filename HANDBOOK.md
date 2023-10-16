@@ -288,3 +288,14 @@ It is your choice to build the barriers first or the map first. For this example
   The `Look position` is the direction the players will look when they spawn at base. You can leave this by default (default is: auto).
 
   Repeat the same process for every enabled team.
+
+* To add treasure chests to your map, click the `Add Chest Zone` button to add a chest zone. A chest zone is an area where the treasure chests will spawn randomely. You can add multiple chest zones. Click on the `Chest Zone - (0,0,0) - (0,0,0)` button for each chest zone to select each chest zone's area. You can only add one chest zone and have it cover the whole map, or you can add several different chest zones. You can edit each chest zone's amount.
+
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/65433e30-3307-4ab5-811d-cfcbc72e085b)
+
+  You can click the `X` button to remove a chest zone. Make sure each team gets around the same amount of chests on their side!
+
+* Once you finish configuring the map, click the `Finish Editing` button at the very bottom to finish.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/7544f651-0f90-45b3-bca4-684eb472043f)
+
