@@ -285,4 +285,6 @@ It is your choice to build the barriers first or the map first. For this example
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/601a5e69-3a9b-457b-93e9-c44d75bebd9b) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0ba88f16-c0eb-416c-aae0-0ff9fd862b09)
 
+  The `Look position` is the direction the players will look when they spawn at base. You can leave this by default (default is: auto).
 
+  Repeat the same process for every enabled team.
