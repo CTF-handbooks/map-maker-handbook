@@ -240,7 +240,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/30c84310-aef6-4cd5-b527-167a53425a6a)
 
 * `Map Treasures` is **optional**. From the ctf_map README:
-  >(`Map Treasures` is) a list of treasures that could end up in treasure chests
+  >(`Map Treasures` is) a list of treasures that can be added specifically for your map that don't end up in chests by default.
 
   >Format:
   ```
@@ -259,3 +259,18 @@ It is your choice to build the barriers first or the map first. For this example
 * The `Skybox` is a image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/15ca58b2-3600-460b-87fc-e11cf7fd9589)
+
+* In `Map Modes`, you can select the modes that will be available for your map. The mods available for your map will be in the `Available Modes` box. To make a mode available/unavailbe, double-click the mode.
+  
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/602d38cd-1a02-448f-85e8-685040ac7ee0)
+
+* Map Constants (from the ctf_map README):
+1. `Map Shadow Intensity`: Sets the intensity of the shadows.
+2. `Map Gravity`: Gravitational constant of the map. (default = 1)
+3. `Map Movement Speed`: Regulates the speed at which players move. (default = 1)
+4. `Map Jump Height`: Regulates the height of jumps. (default = 1)
+5. `Map start_time`: Sets time of the day the match begins at. Changing this field will instantly update the time of day in the world you are editing.
+   * `0` is for midnight
+   * `1000` is for 1 AM
+   * `2000` is for 2 AM
+   * etc.
