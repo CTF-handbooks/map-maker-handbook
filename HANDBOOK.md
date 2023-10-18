@@ -260,7 +260,7 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/15ca58b2-3600-460b-87fc-e11cf7fd9589)
 
-* In `Map Modes`, you can select the modes that will be available for your map. The mods available for your map will be in the `Available Modes` box. To make a mode available/unavailbe, double-click the mode.
+* In `Map Modes`, you can select the modes that will be enabled for your map. By default, all modes are enabled. To disable/enable a mode, double click it. Disabled modes are in the `Available Modes` box.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/602d38cd-1a02-448f-85e8-685040ac7ee0)
 
@@ -314,4 +314,10 @@ It is your choice to build the barriers first or the map first. For this example
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8a1e3147-2a17-4037-8edd-cb0b4367e792)
 
-* 
+* Grant yourself the `ctf_admin` priv by running the following command:
+  ```
+  /grantme ctf_admin
+  ```
+* To skip to your map, you can run the command `/ctf_next -f <map_name>` or run the command `/maps`. Once you run the `/maps` command, you will be in the "Map catalog" menu. Find your map in the list, select it, and press the `Skip to map` button.
+  
+![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/66d933d6-e5ae-4e01-bc8c-dd366d99711b)
