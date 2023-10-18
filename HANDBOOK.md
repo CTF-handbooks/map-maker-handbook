@@ -320,7 +320,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
 * To skip to your map, you can run the command `/ctf_next -f <map_name>` or run the command `/maps`. Once you run the `/maps` command, you will be in the "Map catalog" menu. Find your map in the list, select it, and press the `Skip to map` button.
   
-![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/66d933d6-e5ae-4e01-bc8c-dd366d99711b)
+  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/66d933d6-e5ae-4e01-bc8c-dd366d99711b)
 
 * To skip build-time, you can run the following command:
   ```
