@@ -339,3 +339,20 @@ It is your choice to build the barriers first or the map first. For this example
   /ctf_teams set singleplayer blue
   ```
 ***
+### 13. Screenshot
+From the ctf_map README:
+> If you choose to submit your map, include a screenshot of it in the exported map's folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot `600px`x`400px` is suggested).
+
+> You can take a screenshot easily by doing the following:
+> 1. Hide the HUD. By default <kbd>F1</kbd> does that.
+> 2. Hide the chat log. By default <kbd>F2</kbd> does that.
+> 3. See if your screenshot looks better with/without fog enabled. You can toggle it with <kbd>F3</kbd> by default
+> 4. Try to find a good view that shows most of the map.
+> 5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
+> 6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
+> 7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in settings.
+
+>Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
+
+You can use [this](https://imagy.app/image-aspect-ratio-changer/) website to crop your screenshot.
+***
