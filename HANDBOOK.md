@@ -356,3 +356,5 @@ From the ctf_map README:
 
 You can use [this](https://imagy.app/image-aspect-ratio-changer/) website to crop your screenshot.
 ***
+### 14. Submission
+* Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).
