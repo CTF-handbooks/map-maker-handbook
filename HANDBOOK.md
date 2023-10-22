@@ -42,11 +42,17 @@
   
 ***
 ### 4. Setting up
-* Grant yourself the "ctf_map_editor" by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
+* Grant yourself the "ctf_map_editor" priv by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
 * You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
 * *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
+  ```
+  /time 12000
+  ```
+  ```
+  /set -n time_speed 0
+  ```
 
 ***
 ### 5. WorldEdit basics
@@ -59,7 +65,7 @@
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
 * **Remember to backup your world before risky operations!**
-* Open your inventory. Under the `Crafting` tab, an earth icon is hidden behind the crafting options. Click it to open the WorldEdit GUI
+* Open your inventory. Under the `Crafting` tab, you can see an earth icon hidden behind the crafting options. Click it to open the WorldEdit GUI.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d8db8d4c-ee38-4d12-a90b-d2fb73884611)
 * These are the tools that you can use to alter the nodes within your selected area. You can experiment with the options.
@@ -80,8 +86,9 @@
 ***
 It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.
 ### 6. Removing the surrounding terrain
-* This is optional and only applies if you're using generated terrain. It might be hard to place the outer barriers when the terrain outside your map area is blocking your view.
-* To get rid of the extra terrain, first, select the area your map will be in with WorldEdit as mentioned above.
+* This is optional and only applies if you're using generated terrain.
+* It might be hard to place the outer barriers when the terrain outside your map area is blocking your view.
+* To get rid of the extra terrain, first, select the area your map will be in with WorldEdit.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0c966405-3ac4-4b82-b404-e7f6526c74c3)
 
@@ -105,14 +112,14 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   > To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
   
-  > You can find a list of itemstring of the indestructible nodes CTF provides [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
+  > You can find a list of itemstrings of the indestructible nodes CTF provides [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
 * Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/99393b5b-8172-4593-9ada-8bd8c0966d50)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a65611d8-8c40-4e6a-b48c-2d43da4b495e)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/03a968d2-8822-4904-9302-9835ca3c4848)
 
-* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and place `indestructible barrier glass` or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `indestructible barrier glass` or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_glass
   ```
@@ -120,7 +127,7 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ab6b6c1e-1341-4a34-bbcd-af2970c99b10)
 
-* To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with the `indestructible barrier glass`.
+* To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with `indestructible barrier glass`.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8880f9df-4bb6-416e-95cf-a0555b2103e6)
 
@@ -128,16 +135,19 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //ri air ctf_map:ind_stone
   ```
-* Then, without selecting a new area, replace `air` with the `indestructible barrier glass` using the WorldEdit GUI, or through the command:
+* Then, without selecting a new area, replace `air` with `indestructible barrier glass` using the WorldEdit GUI, or through the command:
   ```
   //r air ctf_map:ind_glass
   ```
-* After finishing your first glass barrier wall, proceed to build the other 3 sides of the barrier.
-* You can also make a roof using any type of indestructible node such as the `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
+* After finishing your first barrier wall, proceed to build the other 3 sides of the barrier.
+* You can also make a roof using any type of indestructible node such as `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
 
 ***
 ### 8. Building the map
-* If you are using the singlenode mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to `air` using WorldEdit.
+* If you are using the singlenode mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to `air` using WorldEdit. To do that, you can use the command:
+  ```
+  //s air
+  ```
 * When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don't want players to destroy (use the admin pickaxe to break indestructible blocks).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3a724fe8-9005-4dde-9438-36d424a2e7be)
@@ -154,7 +164,7 @@ It is your choice to build the barriers first or the map first. For this example
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
   >You can press <kbd>F5</kbd> to show your current coordinates.
 * The `indestructible red barrier glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
-* To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in too; don't worry they won't be replaced), and run:
+* To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don't worry they won't be replaced), and run:
   ```
   //r air ctf_map:ind_glass_red
   ```
@@ -181,7 +191,7 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/b57294e1-b6f1-4a5d-aeb7-40408c5c580d)
 
-* Follow the instructions given to you in chat and select the area your map is in, just like how you would select the area in WorldEdit. You can either punch a node to select or stand at where you want to select and run the following command:
+* Follow the instructions given to you in chat and select the area your map is in, just like how you would select the area with WorldEdit. You can either punch a node to select or stand at where you want to select and run the following command:
   ```
   /ctf_map here
   ```
@@ -237,7 +247,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/30c84310-aef6-4cd5-b527-167a53425a6a)
 
-* `Map Treasures` is **optional**. From the ctf_map README:
+* `Map Treasures` is **optional**. You can leave this field untouched. From the ctf_map README:
   >(`Map Treasures` is) a list of treasures that can be added specifically for your map that don't end up in chests by default.
 
   >Format:
@@ -254,7 +264,7 @@ It is your choice to build the barriers first or the map first. For this example
     ```
     ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070)
 
-* The `Skybox` is a image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
+* The `Skybox` is an image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/15ca58b2-3600-460b-87fc-e11cf7fd9589)
 
@@ -279,7 +289,7 @@ It is your choice to build the barriers first or the map first. For this example
 
   Next, click the `Set Flag Pos` button below your first enabled team and punch the node where that team's flag will be on. This will place the flag on top of that node.
 
-  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. During build-time, players who go out of the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they touch the barriers during build-time!**
+  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. A team-zone is the area in which the team's players interact in during build-time before the build-time barriers drop. During build-time, players who go out of the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they touch the barriers during build-time!**
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/7186f5fd-1e8d-416b-a7a6-a6eb9b2796bd) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/843e65d0-6dba-4de7-b8d6-d4b9fee34b2a)
 
@@ -287,7 +297,7 @@ It is your choice to build the barriers first or the map first. For this example
 
   Repeat the same process for every enabled team.
 
-* To add treasure chests to your map, click the `Add Chest Zone` button to add a chest zone. A chest zone is an area where the treasure chests will spawn randomely. You can add multiple chest zones. Click on the `Chest Zone - (0,0,0) - (0,0,0)` button for each chest zone to select each chest zone's area. You can only add one chest zone and have it cover the whole map, or you can add several different chest zones. You can edit each chest zone's amount.
+* To add treasure chests to your map, click the `Add Chest Zone` button to add a chest zone. A chest zone is an area where the treasure chests will spawn randomely. You can add multiple chest zones. Click on the `Chest Zone - (0,0,0) - (0,0,0)` button for each chest zone to select each chest zone's area. You can only add one chest zone and have it cover the whole map, or you can add several different chest zones. You can edit the amount of chests that will spawn randomly in each chest-zone.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/65433e30-3307-4ab5-811d-cfcbc72e085b)
 
