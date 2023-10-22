@@ -13,7 +13,7 @@
 
     > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
 
-    > Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
+    > Once you download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/mods`.
   
 ***
 ### 2. Planning the map
