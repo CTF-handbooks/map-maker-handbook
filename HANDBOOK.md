@@ -112,7 +112,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   > To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for "append", and enable `Append item name`.
   
-  > You can find a list of itemstrings of the indestructible nodes CTF provides [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
+  > You can find a list of commonly used itemstrings during map making [here](https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides).
 * Your outer barriers can be placed outside your map area, override the outer slice of your map, or leave parts of the map terrain/structures outside the barrier.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/99393b5b-8172-4593-9ada-8bd8c0966d50)
