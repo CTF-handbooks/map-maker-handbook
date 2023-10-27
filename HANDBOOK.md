@@ -314,7 +314,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   /games/capturetheflag/mods/ctf/ctf_map/maps
   ```
-  > If you experience a problem with the above path on certain file managers, copy it without the `/` at the starting.
+  > If you experience a problem with the above path on certain file managers, copy it without the `/` at the start.
 
 * Create a new world in the Capture the Flag game with the `singlenode` mapgen.
   
