@@ -173,11 +173,11 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //r default:stone ctf_map:ind_stone_red
   ```
-* If there is water within the barrier wall, you can replace them it `Indestructible Water Barrier Glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:
+* If there is water within the barrier wall, you can replace it with `Indestructible Water Barrier Glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:
   ```
   //r default:water_source ctf_map:ind_water
   ```
-* If there is lava within the barrier wall, you can replace them it `Indestructible Lava Barrier Stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:
+* If there is lava within the barrier wall, you can replace it with `Indestructible Lava Barrier Stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:
   ```
   //r default:lava_source ctf_map:ind_lava
   ```
