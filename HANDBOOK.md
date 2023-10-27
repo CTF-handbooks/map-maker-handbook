@@ -120,7 +120,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a65611d8-8c40-4e6a-b48c-2d43da4b495e)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/03a968d2-8822-4904-9302-9835ca3c4848)
 
-* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `Indestructible barrier glass` (`ctf_map:ind_glass`) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `Indestructible Barrier Glass` (`ctf_map:ind_glass`) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_glass
   ```
