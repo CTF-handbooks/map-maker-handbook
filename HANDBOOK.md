@@ -312,8 +312,10 @@ It is your choice to build the barriers first or the map first. For this example
 * You can find your exported map in `[Minetest folder]/worlds/[Map World]/schems/`.
 * To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's search/directory to navigate there quickly:
   ```
-  games/capturetheflag/mods/ctf/ctf_map/maps
+  /games/capturetheflag/mods/ctf/ctf_map/maps
   ```
+  > If you experience a problem with the above path on certain file managers, copy it without the `/` at the starting.
+
 * Create a new world in the Capture the Flag game with the `singlenode` mapgen.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a7b93c30-8578-4e98-a582-53b4f84a60a4)
