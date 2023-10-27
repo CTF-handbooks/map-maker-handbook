@@ -9,7 +9,7 @@
     
     > Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to `[Minetest folder]/games`.
 * WorldEdit mod for Minetest (_optional_).
-    > Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up. This is also helpful when building other desired map structures.
+    > Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up and is also helpful when building other desired map structures.
 
     > You can install WorldEdit from either the Minetest in-game ContentDB or from the [ContentDB website](https://content.minetest.net/packages/sfan5/worldedit/).
 
@@ -17,11 +17,11 @@
   
 ***
 ### 2. Planning the map
-* A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to get across to the middle of the map with a full sprint bar before running out of sprint. A maximum of `230 x 230` blocks in surface area is recommended.
+* A map shouldn't be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to reach the middle of the map with a full sprint bar before running out of sprint. A maximum of `230 x 230` blocks in surface area is recommended.
 * If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.
 
     > "The design of a map should encourage differing gameplay and tactics." - -sniper-
-* The design of a map shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
+* The map design shouldn't give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.
 * Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.
   
 ***
@@ -42,11 +42,11 @@
   
 ***
 ### 4. Setting up
-* Grant yourself the "ctf_map_editor" priv by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant you "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc...
-* You can hit Esc on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc...).
+* Grant yourself the "ctf_map_editor" priv by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant yourself "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc.
+* You can hit <kbd>Esc</kbd> on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc.).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
-* *Tip*: run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
+* *Tip*: Run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
   ```
   /time 12000
   ```
@@ -56,29 +56,29 @@
 
 ***
 ### 5. WorldEdit basics
-* To use WorldEdit, first you must select an area in which your actions take place.
+* To use WorldEdit, first, you must select an area where your actions occur.
 * You can use the `WorldEdit Wand tool` to select your area. To select your area, you select the two opposite corners of the area. Left-click a node with the tool to make the node the first corner, and right-click to set the second.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/fbf6847c-34ed-4c6b-892e-2c862aa3927f)
-* An alternative method is to stand at the point you would like to select and run `//1` in chat to set the first corner, and `//2` to set the second.
+* An alternative method is to stand at the point you would like to select and run `//1` in chat to set the first corner and `//2` to set the second.
 * The area within will be selected.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9)
 * **Remember to backup your world before risky operations!**
-* Open your inventory. Under the `Crafting` tab, you can see an earth icon hidden behind the crafting options. Click it to open the WorldEdit GUI.
+* Open your inventory. Under the `Crafting` tab, an earth icon is hidden behind the crafting options. Click it to open the WorldEdit GUI.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d8db8d4c-ee38-4d12-a90b-d2fb73884611)
 * These are the tools that you can use to alter the nodes within your selected area. You can experiment with the options.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ef0db7f5-696a-4611-ad54-c4def6d1aa2f)
-* To set the area you've selected earlier with a certain type of node, click `Set Nodes`, type in the name of the node you would like to set in the field, click `search` or press enter, and click `Set Nodes`.
+* To set the area you've selected earlier with a certain type of node, click `Set Nodes`, type in the name of the node you would like to set in the field, click `Search` or press enter, and click `Set Nodes`.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3b12e708-f60e-42c4-8ebc-1a1c764dd093)
 
-* If you've selected a large area, WorldEdit might give you a warning in chat. Type `//y` in chat to continue.
+* If you've selected a large area, WorldEdit might warn you in chat. Type `//y` in chat to continue.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/1e84188f-52a6-43db-a79c-fc662e75d987)
-* To replace a certain type of node with another one in your selected area, select `Replace Nodes`. In the first field, type in the node you would like to replace, and in the second field, type in the node you would like to replace with.
+* To replace a certain node type with another one in your selected area, select `Replace Nodes`. In the first field, type in the node you would like to replace; in the second field, type in the node you would like to replace with.
 * To only place nodes where there are no nodes, you can replace `air` with the node you want to use.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/63fe78c0-ab9f-458d-b6bd-7d90ea4414c5)
@@ -87,12 +87,12 @@
 It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.
 ### 6. Removing the surrounding terrain
 * This is optional and only applies if you're using generated terrain.
-* It might be hard to place the outer barriers when the terrain outside your map area is blocking your view.
+* It might be hard to place the outer barriers when the terrain outside your map area blocks your view.
 * To get rid of the extra terrain, first, select the area your map will be in with WorldEdit.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0c966405-3ac4-4b82-b404-e7f6526c74c3)
 
-* Once you selected the area, run `//mtschemcreate <any name>`. For example:
+* Once you select the area, run `//mtschemcreate <any name>`. For example:
   ```
   //mtschemcreate map_terrain
   ```
@@ -101,12 +101,13 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //mtschemplace map_terrain
   ```
-* Your terrain should be placed there. If you're not happy with the result, you can go back down, pick another terrain, and do it again.
+* With that, your terrain should be placed there successfully. If you're unhappy with the result, you can go back down, pick another terrain, and do it again.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
+
 ***
 ### 7. Placing the barriers
-* To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+* To make the bottom of the map indestructible so that players can't escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_stone
   ```
@@ -119,7 +120,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a65611d8-8c40-4e6a-b48c-2d43da4b495e)
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/03a968d2-8822-4904-9302-9835ca3c4848)
 
-* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `indestructible barrier glass` or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
+* To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to `Indestructible Barrier Glass` (`ctf_map:ind_glass`) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command `//s <node itemstring>`. For example:
   ```
   //s ctf_map:ind_glass
   ```
@@ -127,7 +128,7 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ab6b6c1e-1341-4a34-bbcd-af2970c99b10)
 
-* To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with `indestructible barrier glass`.
+* To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with `Indestructible Barrier Glass`.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8880f9df-4bb6-416e-95cf-a0555b2103e6)
 
@@ -135,12 +136,12 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //ri air ctf_map:ind_stone
   ```
-* Then, without selecting a new area, replace `air` with `indestructible barrier glass` using the WorldEdit GUI, or through the command:
+* Then, without selecting a new area, replace `air` with `Indestructible Barrier Glass` using the WorldEdit GUI, or through the command:
   ```
   //r air ctf_map:ind_glass
   ```
 * After finishing your first barrier wall, proceed to build the other 3 sides of the barrier.
-* You can also make a roof using any type of indestructible node such as `indestructible barrier glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
+* You can also make a roof using any type of indestructible node such as `Indestructible Barrier Glass`, but if you set your map area correctly later on, players shouldn't be able to escape through the roof. So, you do not necessarily need to add a roof.
 
 ***
 ### 8. Building the map
@@ -157,30 +158,31 @@ It is your choice to build the barriers first or the map first. For this example
     * Team chests for each team. You can find them as a node in the inventory.
       
       ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/74f210ba-3b94-473a-bff8-886f8578d3d3)
-    * _Optional_: ores (such as iron, diamond, or mese ores). The amount of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
+    * _Optional_: ores (such as iron, diamond, or mese ores). The number of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).
 
 ***
 ### 9. Building the build-time barrier
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
-  >You can press <kbd>F5</kbd> to show your current coordinates.
-* The `indestructible red barrier glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
+  > You can press <kbd>F5</kbd> to show your current coordinates.
+* The `Indestructible Red Barrier Glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
 * To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don't worry they won't be replaced), and run:
   ```
   //r air ctf_map:ind_glass_red
   ```
-* If there are stone nodes within the barrier wall, you can replace them with `indestructible red barrier stone`, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before, and run:
+* If there are stone nodes within the barrier wall, you can replace them with `Indestructible Red Barrier Stone`, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before and run:
   ```
   //r default:stone ctf_map:ind_stone_red
   ```
-* If there is water within the barrier wall, you can replace them with `indestructible water barrier glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before, and run:
+* If there is water within the barrier wall, you can replace it with `Indestructible Water Barrier Glass`, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:
   ```
   //r default:water_source ctf_map:ind_water
   ```
-* If there is lava within the barrier wall, you can replace them with `indestructible lava barrier stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before, and run:
+* If there is lava within the barrier wall, you can replace it with `Indestructible Lava Barrier Stone`, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:
   ```
   //r default:lava_source ctf_map:ind_lava
   ```
 * If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.
+
 ***
 ### 10. Selecting the map area
 * After you finished building your map, run the following command in chat:
@@ -191,31 +193,29 @@ It is your choice to build the barriers first or the map first. For this example
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/b57294e1-b6f1-4a5d-aeb7-40408c5c580d)
 
-* Follow the instructions given to you in chat and select the area your map is in, just like how you would select the area with WorldEdit. You can either punch a node to select or stand at where you want to select and run the following command:
+* Follow the instructions given to you in chat and select the area your map is in, just like how you would select the area with WorldEdit. You can either punch a node to select or stand where you want to select and run the following command:
   ```
   /ctf_map here
   ```
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/bdca51e0-a439-4bf3-a65a-75530f2f5d2d)
   
-  Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, make sure to include them in too.
+  Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, include them too.
+
 ***
 ### 11. Exporting the map
 * After selecting your map area, run `/ctf_map editor` in chat again. This will open the Map Editor.
-  ```
-  /ctf_map editor
-  ```
-* Check `Map Enabled` unless you don't want to make the map available for play.
+* Check `Map Enabled` unless you don't want to make the map available for play. If you are making the map for the official server, you will check this.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a1bfc7bb-0b84-4cea-b41c-b15668c15f55)
 
-* In the license field, add the license of your map. Every map must have a license. The official CTF server will only accept free culture licenses like `CC BY-SA 4.0`. Please note that some CC licenses such as `CC BY-ND` are not free. You can find a list of CC licenses [here](https://creativecommons.org/share-your-work/cclicenses/).
+* In the license field, add the license of your map. Every map must have a license. The official CTF server will only accept free culture licenses like `CC BY-SA 4.0`. Please note that some CC licenses, such as `CC BY-ND` are not free. You can find a list of CC licenses [here](https://creativecommons.org/share-your-work/cclicenses/).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/e3e0a9e8-8968-423a-8b54-3288f303d0d9)
 
   From the ctf_map README:
-  >You can append any attribution you need to give to the `license` field (For example: If you modified someone's map or used one of their builds you'd list their name and what map/build of theirs that you modified/used). If you want to give more information, you can use the `Other Info` field.
+  > You can append any attribution you need to give to the `license` field (For example: If you modified someone's map or used one of their builds you'd list their name and what map/build of theirs that you modified/used). If you want to give more information, you can use the `Other Info` field.
   
-  >Please make sure you know what you are doing when choosing a license.
+  > Please make sure you know what you are doing when choosing a license.
 
 * In the `Folder Name` field, type in the name you want the map folder to be. For example, if your map name is "My Map", it is recommended for you to name the folder `my_map`.
   
@@ -238,9 +238,9 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/97132307-260e-4d1a-b065-f909d30ee39b)
 
 * From the ctf_map README:
-  >`initial_stuff` are the items given to players at their (re)spawn. The `initial_stuff` field is located in the `map.conf` file. At least a pickaxe and some torches should be given in the map's `initial_stuff`.
+  > `initial_stuff` are the items given to players at their (re)spawn. The `initial_stuff` field is located in the `map.conf` file. At least a pickaxe and some torches should be given in the map's `initial_stuff`.
 
-  >An example of `initial_stuff` value that registers a stone pickaxe, 30 cobblestones, 5 torches and a pistol is given below.
+  > An example of `initial_stuff` value that registers a stone pickaxe, 30 cobblestones, 5 torches and a pistol is given below.
 
   ```
   default:pick_stone,default:cobble 30,default:torch 5,ctf_ranged:pistol_loaded
@@ -248,21 +248,21 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/30c84310-aef6-4cd5-b527-167a53425a6a)
 
 * `Map Treasures` is **optional**. You can leave this field untouched. From the ctf_map README:
-  >(`Map Treasures` is) a list of treasures that can be added specifically for your map that don't end up in chests by default.
+  > (`Map Treasures` is) a list of treasures that can be added specifically for your map that don't end up in chests by default.
 
-  >Format:
+  > Format:
   ```
   [name];[min_count];[max_count];[max_stacks];[rarity];[TREASURE_VERSION];
   ```
 
-  >`rarity` is a value between 0 and 1 specifying the probability it will be added to a chest.
-  >`TREASURE_VERSION` should currently be set to one.
+  > `rarity` is a value between 0 and 1 specifying the probability it will be added to a chest.
+  > `TREASURE_VERSION` should currently be set to one.
 
-  >Example:
-    ```
-    default:lava_source;1;10;1;0.2;1;default:water_source;1;10;1;0.2;1;
-    ```
-    ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070)
+  > Example:
+  >  ```
+  >  default:lava_source;1;10;1;0.2;1;default:water_source;1;10;1;0.2;1;
+  >  ```
+  >  ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070)
 
 * The `Skybox` is an image of a sky that will replace the default Minetest sky when players play your map. You can leave this as `none` to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.
   
@@ -283,13 +283,13 @@ It is your choice to build the barriers first or the map first. For this example
    * `2000` is for 2 AM
    * etc.
   
-* Below the map constants, you will see a list of the different teams with a check-box next to them. Use the check-box to enable the teams that exists in your map.
+* Below the map constants, you will see a list of the different teams with a checkbox next to them. Use the checkbox to enable the teams that exist in your map.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/6b893f4d-ef85-460c-a67a-a2b60eb2f49b)
 
   Next, click the `Set Flag Pos` button below your first enabled team and punch the node where that team's flag will be on. This will place the flag on top of that node.
 
-  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. A team-zone is the area in which the team's players interact in during build-time before the build-time barriers drop. During build-time, players who go out of the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they touch the barriers during build-time!**
+  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. A team-zone is the area where the team's players interact within during build-time before the build-time barriers drop. During build-time, players who leave the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they touch the barriers during build-time!**
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/7186f5fd-1e8d-416b-a7a6-a6eb9b2796bd) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/843e65d0-6dba-4de7-b8d6-d4b9fee34b2a)
 
@@ -297,11 +297,11 @@ It is your choice to build the barriers first or the map first. For this example
 
   Repeat the same process for every enabled team.
 
-* To add treasure chests to your map, click the `Add Chest Zone` button to add a chest zone. A chest zone is an area where the treasure chests will spawn randomely. You can add multiple chest zones. Click on the `Chest Zone - (0,0,0) - (0,0,0)` button for each chest zone to select each chest zone's area. You can only add one chest zone and have it cover the whole map, or you can add several different chest zones. You can edit the amount of chests that will spawn randomly in each chest-zone.
+* To add treasure chests to your map, click the `Add Chest Zone` button to add a chest-zone. A chest-zone is an area where the treasure chests will spawn randomly. You can add multiple chest zones. Click on the `Chest Zone - (0,0,0) - (0,0,0)` button for each chest zone to select each chest zone's area. You can only add one chest zone and have it cover the whole map, or you can add several different chest zones. You can edit the number of chests that will spawn randomly in each chest-zone.
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/65433e30-3307-4ab5-811d-cfcbc72e085b)
 
-  You can click the `X` button to remove a chest zone. Make sure each team gets around the same amount of chests on their side!
+  You can click the `X` button to remove a chest zone. Make sure each team gets around the same number of chests on their side!
 
 * Once you finish configuring the map, click the `Finish Editing` button at the very bottom to finish.
   
@@ -310,10 +310,12 @@ It is your choice to build the barriers first or the map first. For this example
 ***
 ### 12. Testing the map
 * You can find your exported map in `[Minetest folder]/worlds/[Map World]/schems/`.
-* To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's directory to navigate there quickly:
+* To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's search/directory to navigate there quickly:
   ```
   /games/capturetheflag/mods/ctf/ctf_map/maps
   ```
+  > If you experience a problem with the above path on certain file managers, copy it without the `/` at the start.
+
 * Create a new world in the Capture the Flag game with the `singlenode` mapgen.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a7b93c30-8578-4e98-a582-53b4f84a60a4)
@@ -346,6 +348,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   /ctf_teams set singleplayer blue
   ```
+
 ***
 ### 13. Screenshot
 From the ctf_map README:
@@ -358,11 +361,12 @@ From the ctf_map README:
 > 4. Try to find a good view that shows most of the map.
 > 5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
 > 6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
-> 7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in settings.
+> 7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in the settings.
 
->Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
+> Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
 
-You can use [this](https://imagy.app/image-aspect-ratio-changer/) website to crop your screenshot.
+To crop your screenshot, you can use [this](https://imagy.app/image-aspect-ratio-changer/) website.
+
 ***
 ### 14. Submission
 * Now that you have finished making your map, you can submit it to the official CTF server. You can learn more about submission [here](https://github.com/MT-CTF/capturetheflag/blob/master/mods/ctf/ctf_map/README.md#9-submission).
