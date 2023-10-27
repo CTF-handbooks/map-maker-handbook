@@ -310,7 +310,7 @@ It is your choice to build the barriers first or the map first. For this example
 ***
 ### 12. Testing the map
 * You can find your exported map in `[Minetest folder]/worlds/[Map World]/schems/`.
-* To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's search to navigate there quickly:
+* To test your map, copy that folder into `[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps`. You can go to your Minetest folder and paste the following into your file manager's search/directory to navigate there quickly:
   ```
   games/capturetheflag/mods/ctf/ctf_map/maps
   ```
