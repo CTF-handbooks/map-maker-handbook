@@ -289,7 +289,7 @@ It is your choice to build the barriers first or the map first. For this example
 
   Next, click the `Set Flag Pos` button below your first enabled team and punch the node where that team's flag will be on. This will place the flag on top of that node.
 
-  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. A team-zone is where the team's players interact during build-time before the build-time barriers drop. During build-time, players who leave the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they go through the barrier area during build-time!**
+  Then, click the `Zone Bounds` button below the `Set Flag Pos` button and select the team's team-zone. A team-zone is the area where the team's players interact within during build-time before the build-time barriers drop. During build-time, players who leave the team-zone will be teleported back to base. Even standing on the edge of the team-zone will teleport the player back to base, **so make sure to include the barriers within your team-zone too, or players will get teleported back to base if they touch the barriers during build-time!**
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/7186f5fd-1e8d-416b-a7a6-a6eb9b2796bd) ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/843e65d0-6dba-4de7-b8d6-d4b9fee34b2a)
 
