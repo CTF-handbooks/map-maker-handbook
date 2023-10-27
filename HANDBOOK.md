@@ -101,7 +101,7 @@ It is your choice to build the barriers first or the map first. For this example
   ```
   //mtschemplace map_terrain
   ```
-* You should place your terrain there. If you're unhappy with the result, you can return, pick another landscape, and do it again.
+* With that, your terrain should be placed there successfully. If you're unhappy with the result, you can go back down, pick another terrain, and do it again.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef)
 
