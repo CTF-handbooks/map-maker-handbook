@@ -204,7 +204,7 @@ It is your choice to build the barriers first or the map first. For this example
 ***
 ### 11. Exporting the map
 * After selecting your map area, run `/ctf_map editor` in chat again. This will open the Map Editor.
-* Check `Map Enabled` unless you don't want to make the map available for play. If you are making the map for addition to the official server, you will check this.
+* Check `Map Enabled` unless you don't want to make the map available for play. If you are making the map for the official server, you will check this.
   
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a1bfc7bb-0b84-4cea-b41c-b15668c15f55)
 
