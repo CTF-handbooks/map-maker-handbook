@@ -240,7 +240,7 @@ It is your choice to build the barriers first or the map first. For this example
 * From the ctf_map README:
   > `initial_stuff` are the items given to players at their (re)spawn. The `initial_stuff` field is located in the `map.conf` file. At least a pickaxe and some torches should be given in the map's `initial_stuff`.
 
-  > Below is an example of `initial_stuff` value that registers a stone pickaxe, 30 cobblestones, 5 torches and a pistol.
+  > An example of `initial_stuff` value that registers a stone pickaxe, 30 cobblestones, 5 torches and a pistol is given below.
 
   ```
   default:pick_stone,default:cobble 30,default:torch 5,ctf_ranged:pistol_loaded
