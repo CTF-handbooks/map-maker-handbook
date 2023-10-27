@@ -354,7 +354,7 @@ From the ctf_map README:
 
 > You can take a screenshot easily by doing the following:
 > 1. Hide the HUD. By default <kbd>F1</kbd> does that.
-> 2. Hide the chat log. By default, <kbd>F2</kbd> does that.
+> 2. Hide the chat log. By default <kbd>F2</kbd> does that.
 > 3. See if your screenshot looks better with/without fog enabled. You can toggle it with <kbd>F3</kbd> by default
 > 4. Try to find a good view that shows most of the map.
 > 5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
