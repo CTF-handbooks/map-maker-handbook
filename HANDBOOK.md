@@ -213,7 +213,7 @@ It is your choice to build the barriers first or the map first. For this example
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/e3e0a9e8-8968-423a-8b54-3288f303d0d9)
 
   From the ctf_map README:
-  > You can append any attribution you need to give to the `license` field (For example: If you modified someone's map or used one of their builds, you'd list their name and what map/build of theirs that you modified/used). If you want to give more information, you can use the `Other Info` field.
+  > You can append any attribution you need to give to the `license` field (For example: If you modified someone's map or used one of their builds you'd list their name and what map/build of theirs that you modified/used). If you want to give more information, you can use the `Other Info` field.
   
   > Please make sure you know what you are doing when choosing a license.
 
