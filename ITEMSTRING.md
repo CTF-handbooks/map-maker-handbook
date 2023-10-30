@@ -1,6 +1,7 @@
 # CTF Commonly Used Itemstring List
 ***
 Commonly used indestructible barriers/nodes:
+
 | Node Name | Itemstring |
 |:----------|:-----------|
 | Indestructible Barrier Glass | `ctf_map:ind_glass` |
