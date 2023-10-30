@@ -43,7 +43,7 @@
 ***
 ### 4. Setting up
 * Grant yourself the "ctf_map_editor" priv by running `/grantme ctf_map_editor`. You can also use `/grantme all` to grant yourself "ctf_map_editor" and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc.
-* You can hit <kbd>Esc</kbd> on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc.).
+* You can hit `Esc` on your keyboard and click `Change Keys` to see your controls (such as how to fly, noclip, etc.).
 
   ![image](https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9)
 * *Tip*: Run `/time 12000` and `/set -n time_speed 0` if you want to disable nighttime while building the map.
@@ -163,7 +163,7 @@ It is your choice to build the barriers first or the map first. For this example
 ***
 ### 9. Building the build-time barrier
 * Your build-time barrier should be in the middle of the map. It is fine if it can't be precisely in the middle.
-  > You can press <kbd>F5</kbd> to show your current coordinates.
+  > You can press `F5` to show your current coordinates.
 * The `Indestructible Red Barrier Glass` will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.
 * To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don't worry they won't be replaced), and run:
   ```
@@ -355,12 +355,12 @@ From the ctf_map README:
 > If you choose to submit your map, include a screenshot of it in the exported map's folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot `600px`x`400px` is suggested).
 
 > You can take a screenshot easily by doing the following:
-> 1. Hide the HUD. By default <kbd>F1</kbd> does that.
-> 2. Hide the chat log. By default <kbd>F2</kbd> does that.
-> 3. See if your screenshot looks better with/without fog enabled. You can toggle it with <kbd>F3</kbd> by default
+> 1. Hide the HUD. By default `F1` does that.
+> 2. Hide the chat log. By default `F2` does that.
+> 3. See if your screenshot looks better with/without fog enabled. You can toggle it with `F3` by default
 > 4. Try to find a good view that shows most of the map.
-> 5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the <kbd>=</kbd> (or <kbd>+</kbd>) and <kbd>-</kbd> keys do that.
-> 6. Take a screenshot **from Minetest**. By default <kbd>F12</kbd> does that.
+> 5. *(Optional)* Increase your view range if important parts of the map cannot be seen. By default the `=` (or `+`) and `-` keys do that.
+> 6. Take a screenshot **from Minetest**. By default `F12` does that.
 > 7. You can find the screenshot in `[Minetest folder]/screenshots` unless you have changed the path in the settings.
 
 > Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map's folder. It should be named `screenshot.png`.
