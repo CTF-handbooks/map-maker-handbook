@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5dd69cc-4741-4908-94a4-c47d3d3cae1d" name="Changes" comment="Add writerside back" />
+    <list default="true" id="d5dd69cc-4741-4908-94a4-c47d3d3cae1d" name="Changes" comment="REMOVE ORIGINAL HANDBOOK AND ITEMSTRING AND USE THE ONE IN WRITERSIDE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +72,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove writerside." />
     <MESSAGE value="Add writerside back" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add writerside back" />
+    <MESSAGE value="REMOVE ORIGINAL HANDBOOK AND ITEMSTRING AND USE THE ONE IN WRITERSIDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="REMOVE ORIGINAL HANDBOOK AND ITEMSTRING AND USE THE ONE IN WRITERSIDE" />
   </component>
 </project>
