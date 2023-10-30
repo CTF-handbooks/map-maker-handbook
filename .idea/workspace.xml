@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5dd69cc-4741-4908-94a4-c47d3d3cae1d" name="Changes" comment="Remove writerside.">
-      <change afterPath="$PROJECT_DIR$/Writerside/c.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/in.tree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/v.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/writerside.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d5dd69cc-4741-4908-94a4-c47d3d3cae1d" name="Changes" comment="Add writerside back" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +69,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove writerside." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove writerside." />
+    <MESSAGE value="Add writerside back" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add writerside back" />
   </component>
 </project>
