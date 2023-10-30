@@ -2,7 +2,7 @@
     <img src="images/header.png"/>
 </p>
 
-<h1 align="center">The Map Maker's Handbook</h1>
+<h1 align="center">CTF Map Maker Handbook</h1>
 
 This is a detailed guide on the process of making a map for the Minetest Capture the Flag game. This is still a work in progress.
 
