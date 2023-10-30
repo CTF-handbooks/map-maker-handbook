@@ -1,4 +1,4 @@
-<h1 id="the-map-maker-s-handbook">The Map Maker&#39;s Handbook</h1>
+<h1 id="the-map-makers-handbook">The Map Maker&#39;s Handbook</h1>
 <hr>
 <h3 id="1-required-tools">1. Required tools</h3>
 <ul>
@@ -6,16 +6,20 @@
 <p>If you don&#39;t have Minetest installed, you can download it from the <a href="https://www.minetest.net/">official Minetest website</a>.</p>
 </blockquote>
 </li>
-<li><p>Capture the Flag game for Minetest.</p>
-<blockquote>
+<li>Capture the Flag game for Minetest.<blockquote>
 <p>You can install the game from either the Minetest in-game ContentDB or from the <a href="https://content.minetest.net/packages/rubenwardy/capturetheflag/">ContentDB website</a>.</p>
+</blockquote>
+<blockquote>
 <p>Once you downloaded the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to <code>[Minetest folder]/games</code>.</p>
 </blockquote>
 </li>
-<li><p>WorldEdit mod for Minetest (<em>optional</em>).</p>
-<blockquote>
+<li>WorldEdit mod for Minetest (<em>optional</em>).<blockquote>
 <p>Although this is optional, it is recommended that you install WorldEdit. Creating maps requires you to build the borders and barriers of the map manually. This tool speeds the process up and is also helpful when building other desired map structures.</p>
+</blockquote>
+<blockquote>
 <p>You can install WorldEdit from either the Minetest in-game ContentDB or from the <a href="https://content.minetest.net/packages/sfan5/worldedit/">ContentDB website</a>.</p>
+</blockquote>
+<blockquote>
 <p>Once you download the .zip file from the ContentDB website, extract the .zip file and move the folder inside it to <code>[Minetest folder]/mods</code>.</p>
 </blockquote>
 </li>
@@ -23,14 +27,17 @@
 <hr>
 <h3 id="2-planning-the-map">2. Planning the map</h3>
 <ul>
-<li>A map shouldn&#39;t be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to reach the middle of the map with a full sprint bar before running out of sprint. A maximum of <code>230 x 230</code> blocks in surface area is recommended.</li>
+<li><p>A map shouldn&#39;t be too big or too small. The size of a map can vary depending on the terrain and structures that the map will have. With a typical map size, players should be able to reach the middle of the map with a full sprint bar before running out of sprint. A maximum of <code>230 x 230</code> blocks in surface area is recommended.</p>
+</li>
 <li><p>If you are making a map for the official CTF server, it is important to note that your map should be unique and not similar to the maps that already exist in the game.</p>
 <blockquote>
 <p>&quot;The design of a map should encourage differing gameplay and tactics.&quot; - -sniper-</p>
 </blockquote>
 </li>
-<li>The map design shouldn&#39;t give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.</li>
-<li>Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.</li>
+<li><p>The map design shouldn&#39;t give any team advantages (such as having a better position or more resources). All teams should have an equal chance of winning.</p>
+</li>
+<li><p>Using certain mods on the world the map-making takes place might cause unpredicted problems to the finished map. Switching Minetest or CTF game versions in the midst of the map-making process might also cause problems.</p>
+</li>
 </ul>
 <hr>
 <h3 id="3-creating-the-world">3. Creating the world</h3>
@@ -47,31 +54,39 @@
 <li><p>If you would like to use WorldEdit, click <code>Select Mods</code>, select <code>WorldEdit</code>, and click <code>Enable modpack</code>.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a40dea59-fdab-459f-b2f8-5c281c037498" alt="image"></p>
 </li>
-<li>Click <code>Save</code> and play the world.</li>
+<li><p>Click <code>Save</code> and play the world.</p>
+</li>
 </ul>
 <hr>
 <h3 id="4-setting-up">4. Setting up</h3>
 <ul>
-<li>Grant yourself the &quot;ctf_map_editor&quot; priv by running <code>/grantme ctf_map_editor</code>. You can also use <code>/grantme all</code> to grant yourself &quot;ctf_map_editor&quot; and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc.</li>
+<li><p>Grant yourself the &quot;ctf_map_editor&quot; priv by running <code>/grantme ctf_map_editor</code>. You can also use <code>/grantme all</code> to grant yourself &quot;ctf_map_editor&quot; and all the other privs that will be useful while making a map, such as fly, noclip, fast, etc.</p>
+</li>
 <li><p>You can hit <kbd>Esc</kbd> on your keyboard and click <code>Change Keys</code> to see your controls (such as how to fly, noclip, etc.).</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/98117763-d42c-4a64-ade6-a894c14f61a9" alt="image"></p>
 </li>
-<li><em>Tip</em>: Run <code>/time 12000</code> and <code>/set -n time_speed 0</code> if you want to disable nighttime while building the map.<pre><code>/<span class="hljs-selector-tag">time</span> <span class="hljs-number">12000</span>
-</code></pre><pre><code>/<span class="hljs-keyword">set</span> -n <span class="hljs-comment">time_speed 0</span>
-</code></pre></li>
+<li><p><em>Tip</em>: Run <code>/time 12000</code> and <code>/set -n time_speed 0</code> if you want to disable nighttime while building the map.</p>
+<pre><code>/time 12000
+</code></pre>
+<pre><code>/set -n time_speed 0
+</code></pre>
+</li>
 </ul>
 <hr>
 <h3 id="5-worldedit-basics">5. WorldEdit basics</h3>
 <ul>
-<li>To use WorldEdit, first, you must select an area where your actions occur.</li>
+<li><p>To use WorldEdit, first, you must select an area where your actions occur.</p>
+</li>
 <li><p>You can use the <code>WorldEdit Wand tool</code> to select your area. To select your area, you select the two opposite corners of the area. Left-click a node with the tool to make the node the first corner, and right-click to set the second.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/fbf6847c-34ed-4c6b-892e-2c862aa3927f" alt="image"></p>
 </li>
-<li>An alternative method is to stand at the point you would like to select and run <code>//1</code> in chat to set the first corner and <code>//2</code> to set the second.</li>
+<li><p>An alternative method is to stand at the point you would like to select and run <code>//1</code> in chat to set the first corner and <code>//2</code> to set the second.</p>
+</li>
 <li><p>The area within will be selected.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ee5175f2-5071-405f-a7f1-d175261002a9" alt="image"></p>
 </li>
-<li><strong>Remember to backup your world before risky operations!</strong></li>
+<li><p><strong>Remember to backup your world before risky operations!</strong></p>
+</li>
 <li><p>Open your inventory. Under the <code>Crafting</code> tab, an earth icon is hidden behind the crafting options. Click it to open the WorldEdit GUI.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/d8db8d4c-ee38-4d12-a90b-d2fb73884611" alt="image"></p>
 </li>
@@ -84,7 +99,8 @@
 <li><p>If you&#39;ve selected a large area, WorldEdit might warn you in chat. Type <code>//y</code> in chat to continue.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/1e84188f-52a6-43db-a79c-fc662e75d987" alt="image"></p>
 </li>
-<li>To replace a certain node type with another one in your selected area, select <code>Replace Nodes</code>. In the first field, type in the node you would like to replace; in the second field, type in the node you would like to replace with.</li>
+<li><p>To replace a certain node type with another one in your selected area, select <code>Replace Nodes</code>. In the first field, type in the node you would like to replace; in the second field, type in the node you would like to replace with.</p>
+</li>
 <li><p>To only place nodes where there are no nodes, you can replace <code>air</code> with the node you want to use.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/63fe78c0-ab9f-458d-b6bd-7d90ea4414c5" alt="image"></p>
 </li>
@@ -93,17 +109,23 @@
 <p>It is your choice to build the barriers first or the map first. For this example, we are going to build the barriers first.</p>
 <h3 id="6-removing-the-surrounding-terrain">6. Removing the surrounding terrain</h3>
 <ul>
-<li>This is optional and only applies if you&#39;re using generated terrain.</li>
-<li>It might be hard to place the outer barriers when the terrain outside your map area blocks your view.</li>
+<li><p>This is optional and only applies if you&#39;re using generated terrain.</p>
+</li>
+<li><p>It might be hard to place the outer barriers when the terrain outside your map area blocks your view.</p>
+</li>
 <li><p>To get rid of the extra terrain, first, select the area your map will be in with WorldEdit.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/0c966405-3ac4-4b82-b404-e7f6526c74c3" alt="image"></p>
 </li>
 <li><p>Once you select the area, run <code>//mtschemcreate &lt;any name&gt;</code>. For example:</p>
-<pre><code><span class="hljs-comment">//mtschemcreate map_terrain</span>
-</code></pre></li>
-<li>You can copy the exported schems to a singlenode world and place the terrain there. But to keep it simple, you can just fly up in the air and place the terrain in the sky.</li>
-<li>Enable fly, fly up, and find a suitable place. Place a corner with WorldEdit by running <code>//1</code> in chat. Then, run <code>//mtschemplace &lt;your schem name&gt;</code>. For example:<pre><code><span class="hljs-comment">//mtschemplace map_terrain</span>
-</code></pre></li>
+<pre><code>//mtschemcreate map_terrain
+</code></pre>
+</li>
+<li><p>You can copy the exported schems to a singlenode world and place the terrain there. But to keep it simple, you can just fly up in the air and place the terrain in the sky.</p>
+</li>
+<li><p>Enable fly, fly up, and find a suitable place. Place a corner with WorldEdit by running <code>//1</code> in chat. Then, run <code>//mtschemplace &lt;your schem name&gt;</code>. For example:</p>
+<pre><code>//mtschemplace map_terrain
+</code></pre>
+</li>
 <li><p>With that, your terrain should be placed there successfully. If you&#39;re unhappy with the result, you can go back down, pick another terrain, and do it again.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ed6996b5-3181-40b9-8080-c50cd7258cef" alt="image"></p>
 </li>
@@ -112,9 +134,12 @@
 <h3 id="7-placing-the-barriers">7. Placing the barriers</h3>
 <ul>
 <li><p>To make the bottom of the map indestructible so that players can&#39;t escape, select the bottom layer of your map and replace it with any indestructible node through the WorldEdit GUI, or the command <code>//s &lt;node itemstring&gt;</code>. For example:</p>
-<pre><code><span class="hljs-comment">//s ctf_map:ind_stone</span>
-</code></pre><blockquote>
+<pre><code>//s ctf_map:ind_stone
+</code></pre>
+<blockquote>
 <p>To see the itemstring of a node when hovering over it inside your inventory, you can go to settings, search for &quot;append&quot;, and enable <code>Append item name</code>.</p>
+</blockquote>
+<blockquote>
 <p>You can find a list of commonly used itemstrings during map making <a href="https://github.com/CTF-handbooks/map-maker-handbook/blob/main/ITEMSTRING.md#a-list-of-the-itemstring-for-the-indestructible-nodes-ctf-provides">here</a>.</p>
 </blockquote>
 </li>
@@ -124,36 +149,46 @@
 <img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/03a968d2-8822-4904-9302-9835ca3c4848" alt="image"></p>
 </li>
 <li><p>To place the outer barrier, select the area where the barrier will be with WorldEdit (this area should only be one node thick) and set it to <code>Indestructible Barrier Glass</code> (<code>ctf_map:ind_glass</code>) or any type of indestructible node. Many nodes have indestructible variants, which you can use. You can place it using the WorldEdit GUI, or through the command <code>//s &lt;node itemstring&gt;</code>. For example:</p>
-<pre><code><span class="hljs-comment">//s ctf_map:ind_glass</span>
-</code></pre><p>This method will penetrate the terrain/structures if you have some within your selected area.</p>
+<pre><code>//s ctf_map:ind_glass
+</code></pre>
+<p>This method will penetrate the terrain/structures if you have some within your selected area.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/ab6b6c1e-1341-4a34-bbcd-af2970c99b10" alt="image"></p>
 </li>
 <li><p>To replace the terrain with a type of indestructible node and everything that is not terrain with the barrier glass like the image below, you can replace-inverse air with your indestructible node and then replace air with <code>Indestructible Barrier Glass</code>.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/8880f9df-4bb6-416e-95cf-a0555b2103e6" alt="image"></p>
 </li>
 <li><p>To do that, select the area where the barrier will be with WorldEdit and replace-inverse air with your indestructible node through the WorldEdit GUI or using <code>//ri air &lt;node itemstring&gt;</code>. For example:</p>
-<pre><code><span class="hljs-comment">//ri air ctf_map:ind_stone</span>
-</code></pre></li>
-<li>Then, without selecting a new area, replace <code>air</code> with <code>Indestructible Barrier Glass</code> using the WorldEdit GUI, or through the command:<pre><code><span class="hljs-comment">//r air ctf_map:ind_glass</span>
-</code></pre></li>
-<li>After finishing your first barrier wall, proceed to build the other 3 sides of the barrier.</li>
-<li>You can also make a roof using any type of indestructible node such as <code>Indestructible Barrier Glass</code>, but if you set your map area correctly later on, players shouldn&#39;t be able to escape through the roof. So, you do not necessarily need to add a roof.</li>
+<pre><code>//ri air ctf_map:ind_stone
+</code></pre>
+</li>
+<li><p>Then, without selecting a new area, replace <code>air</code> with <code>Indestructible Barrier Glass</code> using the WorldEdit GUI, or through the command:</p>
+<pre><code>//r air ctf_map:ind_glass
+</code></pre>
+</li>
+<li><p>After finishing your first barrier wall, proceed to build the other 3 sides of the barrier.</p>
+</li>
+<li><p>You can also make a roof using any type of indestructible node such as <code>Indestructible Barrier Glass</code>, but if you set your map area correctly later on, players shouldn&#39;t be able to escape through the roof. So, you do not necessarily need to add a roof.</p>
+</li>
 </ul>
 <hr>
 <h3 id="8-building-the-map">8. Building the map</h3>
 <ul>
-<li>If you are using the singlenode mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to <code>air</code> using WorldEdit. To do that, you can use the command:<pre><code><span class="hljs-comment">//s air</span>
-</code></pre></li>
+<li><p>If you are using the singlenode mapgen, players will not be able to move around without noclip. You have to set the area you want players to move in to <code>air</code> using WorldEdit. To do that, you can use the command:</p>
+<pre><code>//s air
+</code></pre>
+</li>
 <li><p>When building your map, you can add any structure you want. Many blocks have indestructible variants, which you can use for builds you don&#39;t want players to destroy (use the admin pickaxe to break indestructible blocks).</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/3a724fe8-9005-4dde-9438-36d424a2e7be" alt="image"></p>
 </li>
 <li><p>You should also add the following:</p>
 <ul>
-<li>Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is <code>5x5</code> blocks (the flag should be in the middle).</li>
+<li><p>Indestructible blocks under the position of the flag (the flag will be added later). The minimum surface area for this indestructible platform is <code>5x5</code> blocks (the flag should be in the middle).</p>
+</li>
 <li><p>Team chests for each team. You can find them as a node in the inventory.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/74f210ba-3b94-473a-bff8-886f8578d3d3" alt="image"></p>
 </li>
-<li><em>Optional</em>: ores (such as iron, diamond, or mese ores). The number of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).</li>
+<li><p><em>Optional</em>: ores (such as iron, diamond, or mese ores). The number of ores for each team should be about the same to ensure that no team has an advantage (please note that mapgens such as v7 and flat come with ores).</p>
+</li>
 </ul>
 </li>
 </ul>
@@ -165,34 +200,42 @@
 </blockquote>
 </li>
 <li>The <code>Indestructible Red Barrier Glass</code> will disappear once build-time is over, so your build-time wall should not replace any part of the map terrain/structures.</li>
-<li>To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don&#39;t worry they won&#39;t be replaced), and run:<pre><code><span class="hljs-comment">//r air ctf_map:ind_glass_red</span>
-</code></pre></li>
-<li>If there are stone nodes within the barrier wall, you can replace them with <code>Indestructible Red Barrier Stone</code>, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before and run:<pre><code>//r <span class="hljs-keyword">default</span>:stone ctf_map:ind_stone_red
-</code></pre></li>
-<li>If there is water within the barrier wall, you can replace it with <code>Indestructible Water Barrier Glass</code>, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:<pre><code>//r <span class="hljs-keyword">default</span>:water_source ctf_map:ind_water
-</code></pre></li>
-<li>If there is lava within the barrier wall, you can replace it with <code>Indestructible Lava Barrier Stone</code>, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:<pre><code>//r <span class="hljs-keyword">default</span>:lava_source ctf_map:ind_lava
-</code></pre></li>
+<li>To do this, select the area where the build-time barrier wall will be with WorldEdit (you can include terrain/structures in the selection too; don&#39;t worry they won&#39;t be replaced), and run:<pre><code>//r air ctf_map:ind_glass_red
+</code></pre>
+</li>
+<li>If there are stone nodes within the barrier wall, you can replace them with <code>Indestructible Red Barrier Stone</code>, which will turn into normal stone once the match starts. To do this, maintain the same selected area as before and run:<pre><code>//r default:stone ctf_map:ind_stone_red
+</code></pre>
+</li>
+<li>If there is water within the barrier wall, you can replace it with <code>Indestructible Water Barrier Glass</code>, which will turn into water once the match starts. To do this, maintain the same selected area as before and run:<pre><code>//r default:water_source ctf_map:ind_water
+</code></pre>
+</li>
+<li>If there is lava within the barrier wall, you can replace it with <code>Indestructible Lava Barrier Stone</code>, which will turn into lava once the match starts. To do this, maintain the same selected area as before and run:<pre><code>//r default:lava_source ctf_map:ind_lava
+</code></pre>
+</li>
 <li>If there are still breakable nodes within the barrier wall, you can leave them there, because if you set your team-zones correctly later on, players should be teleported back to base if they cross the barrier wall.</li>
 </ul>
 <hr>
 <h3 id="10-selecting-the-map-area">10. Selecting the map area</h3>
 <ul>
-<li>After you finished building your map, run the following command in chat:<pre><code>/ctf_map <span class="hljs-keyword">editor</span>
-</code></pre></li>
+<li><p>After you finished building your map, run the following command in chat:</p>
+<pre><code>/ctf_map editor
+</code></pre>
+</li>
 <li><p>Click <code>Create New Map</code>.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/b57294e1-b6f1-4a5d-aeb7-40408c5c580d" alt="image"></p>
 </li>
 <li><p>Follow the instructions given to you in chat and select the area your map is in, just like how you would select the area with WorldEdit. You can either punch a node to select or stand where you want to select and run the following command:</p>
-<pre><code>/ctf_map <span class="hljs-keyword">here</span>
-</code></pre><p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/bdca51e0-a439-4bf3-a65a-75530f2f5d2d" alt="image"></p>
+<pre><code>/ctf_map here
+</code></pre>
+<p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/bdca51e0-a439-4bf3-a65a-75530f2f5d2d" alt="image"></p>
 <p>Make sure you selected your entire map and make sure you did not select any extra space. If you have decided to leave some terrain/structures outside your outer glass barrier, include them too.</p>
 </li>
 </ul>
 <hr>
 <h3 id="11-exporting-the-map">11. Exporting the map</h3>
 <ul>
-<li>After selecting your map area, run <code>/ctf_map editor</code> in chat again. This will open the Map Editor.</li>
+<li><p>After selecting your map area, run <code>/ctf_map editor</code> in chat again. This will open the Map Editor.</p>
+</li>
 <li><p>Check <code>Map Enabled</code> unless you don&#39;t want to make the map available for play. If you are making the map for the official server, you will check this.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/a1bfc7bb-0b84-4cea-b41c-b15668c15f55" alt="image"></p>
 </li>
@@ -201,6 +244,8 @@
 <p>From the ctf_map README:</p>
 <blockquote>
 <p>You can append any attribution you need to give to the <code>license</code> field (For example: If you modified someone&#39;s map or used one of their builds you&#39;d list their name and what map/build of theirs that you modified/used). If you want to give more information, you can use the <code>Other Info</code> field.</p>
+</blockquote>
+<blockquote>
 <p>Please make sure you know what you are doing when choosing a license.</p>
 </blockquote>
 </li>
@@ -222,21 +267,32 @@
 <li><p>From the ctf_map README:</p>
 <blockquote>
 <p><code>initial_stuff</code> are the items given to players at their (re)spawn. The <code>initial_stuff</code> field is located in the <code>map.conf</code> file. At least a pickaxe and some torches should be given in the map&#39;s <code>initial_stuff</code>.</p>
+</blockquote>
+<blockquote>
 <p>An example of <code>initial_stuff</code> value that registers a stone pickaxe, 30 cobblestones, 5 torches and a pistol is given below.</p>
 </blockquote>
-<pre><code><span class="hljs-selector-tag">default</span><span class="hljs-selector-pseudo">:pick_stone</span>,<span class="hljs-selector-tag">default</span><span class="hljs-selector-pseudo">:cobble</span> 30,<span class="hljs-selector-tag">default</span><span class="hljs-selector-pseudo">:torch</span> 5,<span class="hljs-selector-tag">ctf_ranged</span><span class="hljs-selector-pseudo">:pistol_loaded</span>
-</code></pre><p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/30c84310-aef6-4cd5-b527-167a53425a6a" alt="image"></p>
+<pre><code>default:pick_stone,default:cobble 30,default:torch 5,ctf_ranged:pistol_loaded
+</code></pre>
+<p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/30c84310-aef6-4cd5-b527-167a53425a6a" alt="image"></p>
 </li>
 <li><p><code>Map Treasures</code> is <strong>optional</strong>. You can leave this field untouched. From the ctf_map README:</p>
 <blockquote>
 <p>(<code>Map Treasures</code> is) a list of treasures that can be added specifically for your map that don&#39;t end up in chests by default.</p>
+</blockquote>
+<blockquote>
 <p>Format:</p>
-<pre><code><span class="hljs-string">[name]</span>;<span class="hljs-string">[min_count]</span>;<span class="hljs-string">[max_count]</span>;<span class="hljs-string">[max_stacks]</span>;<span class="hljs-string">[rarity]</span>;<span class="hljs-string">[TREASURE_VERSION]</span>;
-</code></pre><p><code>rarity</code> is a value between 0 and 1 specifying the probability it will be added to a chest.
+</blockquote>
+<pre><code>[name];[min_count];[max_count];[max_stacks];[rarity];[TREASURE_VERSION];
+</code></pre>
+<blockquote>
+<p><code>rarity</code> is a value between 0 and 1 specifying the probability it will be added to a chest.
 <code>TREASURE_VERSION</code> should currently be set to one.</p>
+</blockquote>
+<blockquote>
 <p>Example:</p>
-<pre><code> <span class="hljs-selector-tag">default</span><span class="hljs-selector-pseudo">:lava_source</span>;1;10;1;0<span class="hljs-selector-class">.2</span>;1;<span class="hljs-selector-tag">default</span><span class="hljs-selector-pseudo">:water_source</span>;1;10;1;0<span class="hljs-selector-class">.2</span>;1;
-</code></pre><p> <img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070" alt="image"></p>
+<pre><code>default:lava_source;1;10;1;0.2;1;default:water_source;1;10;1;0.2;1;
+</code></pre>
+<p> <img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/4a06abae-25df-4895-a1b0-515f00ea5070" alt="image"></p>
 </blockquote>
 </li>
 <li><p>The <code>Skybox</code> is an image of a sky that will replace the default Minetest sky when players play your map. You can leave this as <code>none</code> to use the default Minetest sky or select one of the skyboxes. You can also add custom skyboxes.</p>
@@ -247,18 +303,21 @@
 </li>
 <li><p>Map Constants (from the ctf_map README):</p>
 </li>
+</ul>
+<ol>
 <li><code>Map Shadow Intensity</code>: Sets the intensity of the shadows.</li>
 <li><code>Map Gravity</code>: Gravitational constant of the map. (default = 1)</li>
 <li><code>Map Movement Speed</code>: Regulates the speed at which players move. (default = 1)</li>
 <li><code>Map Jump Height</code>: Regulates the height of jumps. (default = 1)</li>
-<li><p><code>Map start_time</code>: Sets time of the day the match begins at. Changing this field will instantly update the time of day in the world you are editing.</p>
-<ul>
+<li><code>Map start_time</code>: Sets time of the day the match begins at. Changing this field will instantly update the time of day in the world you are editing.<ul>
 <li><code>0</code> is for midnight</li>
 <li><code>1000</code> is for 1 AM</li>
 <li><code>2000</code> is for 2 AM</li>
 <li>etc.</li>
 </ul>
 </li>
+</ol>
+<ul>
 <li><p>Below the map constants, you will see a list of the different teams with a checkbox next to them. Use the checkbox to enable the teams that exist in your map.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/6b893f4d-ef85-460c-a67a-a2b60eb2f49b" alt="image"></p>
 <p>Next, click the <code>Set Flag Pos</code> button below your first enabled team and punch the node where that team&#39;s flag will be on. This will place the flag on top of that node.</p>
@@ -278,10 +337,12 @@
 <hr>
 <h3 id="12-testing-the-map">12. Testing the map</h3>
 <ul>
-<li>You can find your exported map in <code>[Minetest folder]/worlds/[Map World]/schems/</code>.</li>
+<li><p>You can find your exported map in <code>[Minetest folder]/worlds/[Map World]/schems/</code>.</p>
+</li>
 <li><p>To test your map, copy that folder into <code>[Minetest folder]/games/capturetheflag/mods/ctf/ctf_map/maps</code>. You can go to your Minetest folder and paste the following into your file manager&#39;s search/directory to navigate there quickly:</p>
-<pre><code><span class="hljs-regexp">/games/</span>capturetheflag<span class="hljs-regexp">/mods/</span>ctf<span class="hljs-regexp">/ctf_map/m</span>aps
-</code></pre><blockquote>
+<pre><code>/games/capturetheflag/mods/ctf/ctf_map/maps
+</code></pre>
+<blockquote>
 <p>If you experience a problem with the above path on certain file managers, copy it without the <code>/</code> at the start.</p>
 </blockquote>
 </li>
@@ -293,23 +354,33 @@
 </li>
 <li><p>Grant yourself the <code>ctf_admin</code> priv by running the following command:</p>
 <pre><code>/grantme ctf_admin
-</code></pre></li>
+</code></pre>
+</li>
 <li><p>To skip to your map, you can run the command <code>/ctf_next -f &lt;map_name&gt;</code> or run the command <code>/maps</code>. Once you run the <code>/maps</code> command, you will be in the &quot;Map catalog&quot; menu. Find your map in the list, select it, and press the <code>Skip to map</code> button.</p>
 <p><img src="https://github.com/CTF-handbooks/map-maker-handbook/assets/88883098/66d933d6-e5ae-4e01-bc8c-dd366d99711b" alt="image"></p>
 </li>
 <li><p>To skip build-time, you can run the following command:</p>
 <pre><code>/ctf_start
-</code></pre></li>
-<li>To set yourself to the other team, run:<pre><code>/grantme ctf_team_admin
-</code></pre>Then:<pre><code>/ctf_teams <span class="hljs-built_in">set</span> singleplayer &lt;team <span class="hljs-built_in">color</span>&gt;
-</code></pre>For example:<pre><code>/ctf_teams <span class="hljs-keyword">set</span> singleplayer <span class="hljs-comment">blue</span>
-</code></pre></li>
+</code></pre>
+</li>
+<li><p>To set yourself to the other team, run:</p>
+<pre><code>/grantme ctf_team_admin
+</code></pre>
+<p>Then:</p>
+<pre><code>/ctf_teams set singleplayer &lt;team color&gt;
+</code></pre>
+<p>For example:</p>
+<pre><code>/ctf_teams set singleplayer blue
+</code></pre>
+</li>
 </ul>
 <hr>
 <h3 id="13-screenshot">13. Screenshot</h3>
 <p>From the ctf_map README:</p>
 <blockquote>
 <p>If you choose to submit your map, include a screenshot of it in the exported map&#39;s folder. It should be taken without any texture packs enabled and must have an aspect ratio of 3:2 (screenshot <code>600px</code>x<code>400px</code> is suggested).</p>
+</blockquote>
+<blockquote>
 <p>You can take a screenshot easily by doing the following:</p>
 <ol>
 <li>Hide the HUD. By default <kbd>F1</kbd> does that.</li>
@@ -320,6 +391,8 @@
 <li>Take a screenshot <strong>from Minetest</strong>. By default <kbd>F12</kbd> does that.</li>
 <li>You can find the screenshot in <code>[Minetest folder]/screenshots</code> unless you have changed the path in the settings.</li>
 </ol>
+</blockquote>
+<blockquote>
 <p>Crop the screenshot into the aspect ratio mentioned above using a tool of your choice, and put the screenshot inside your exported map&#39;s folder. It should be named <code>screenshot.png</code>.</p>
 </blockquote>
 <p>To crop your screenshot, you can use <a href="https://imagy.app/image-aspect-ratio-changer/">this</a> website.</p>
